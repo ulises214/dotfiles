@@ -1,0 +1,27 @@
+#!/bin/bash
+# Modifications
+alias cp='cp -v'
+alias mv='mv -v'
+alias rm='rm -v'
+alias v='vim'
+alias vim='nvim'
+# Shortcuts
+alias q='exit'
+alias _p='sudo pacman'
+alias _pq='pacman -Qi'
+alias _pr='sudo pacman -Rsn'
+alias _ps='sudo pacman -S'
+alias _pss='pacman -Ss'
+alias rmf='rm -rf '
+alias c.='code .'
+alias icat='kitty icat'
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+alias s=servor
+alias t=todo.sh
+alias neofetch="clear && $HOME/.config/neofetch/launch-neofetch.sh"
+# Aplications
+alias color='colorpicker --short --one-shot | perl -pe 'chomp' | xclip -sel clip' #Get color whith cursor to clipboard
+alias matrix='unimatrix -s 96'
+alias packages='expac -s "%-45n %m" -H M | sort -rhk 2 | nvim' #num of installed packages PACMAN
+
+

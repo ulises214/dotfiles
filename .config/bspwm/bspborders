@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#This creates negative padding eaual to window gap so that gaps are shown only between windows and not on desktop edges.
+
+gap=15
+bspc config window_gap $gap;
+bspc config top_padding $(($PANEL_HEIGHT-gap))
+bspc config left_padding -$gap
+bspc config right_padding -$gap
+bspc config bottom_padding -$gap
+#/////////
+bspc config border_width 0
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true

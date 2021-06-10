@@ -1,0 +1,285 @@
+#
+# CUSTOM hotkeys
+#
+
+# terminal emulator
+super + shift + Return
+	kitty -e zsh -c "$HOME/.config/neofetch/launch-neofetch.sh ; zsh"
+
+# dolphin
+super + shift + e
+    thunar 
+
+# update
+#super + u
+#    bspc rule -a \* -o state=floating && kitty -e $SHELL -c "figlet update... && sudo pacman -Syu"
+
+# class name
+super + alt + c
+    notify-send "$(xprop | grep 'CLASS')"
+
+# restart polybar
+#ctrl + alt + p
+#    ~/.config/polybar/scripts/restart-polybar.sh
+
+# open downloads folder
+#super + d
+#	thunar ~/Downloads
+
+# ranger screenshots
+#shift + super + s
+#    kitty -e ranger /home/ulisesr/Pictures/Screenshots 
+
+# ranger downloads
+#shift + super + d
+#   kitty -e ranger /home/ulisesr/Downloads
+
+# ranger wallpapers
+#shift + super + w
+#    kitty -e ranger /home/ulisesr/.wallpapers
+
+# ranger programming
+#shift + super + p
+#    kitty -e ranger /home/ulisesr/Dropbox/Programming
+
+
+# nitrogen
+#ctrl + alt + w
+#    bspc rule -a \* -o state=floating && nitrogen
+
+# ranger
+#shift + super + r
+#    kitty -e ranger
+
+# browser
+super + shift + w
+    microsoft-edge-beta
+super + ctrl + w
+    microsoft-edge-beta --inprivate
+super + shift + p
+    spotify
+# idea
+#ctrl + alt + i
+#    /home/ulisesr/software/idea-IC-201.7846.76/bin/idea.sh
+
+# code
+#ctrl + alt + c
+#    code
+super + shift + c
+    zsh -ic 'color'
+
+# screenshot (entire screen)
+Print
+    scrot $HOME/Pictures/Screenshots/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'
+
+# screenshot (window)
+super + Print
+    scrot -u $HOME/Pictures/Screenshots/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'
+
+# screenshot (region)
+super + shift + Print
+    import /tmp/screenshot.png && cat /tmp/screenshot.png | xclip -sel clip -t image/png
+    #maim -s -u | xclip -selection clipboard -t image/png -i
+
+# rofi 
+super + Return 
+    $HOME/.config/rofi/launch-rofi.sh
+# window switcher
+super + w
+    $HOME/.config/rofi/rofi-window-swith.sh
+# theme swap
+super + alt + t
+    ~/.config/polybar/scripts/theme-swap.sh
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# spotify
+#ctrl + alt + s
+#    bspc desktop -f '^8' --follow ; spotify
+
+# AUDIO (pulsemixer)
+# pulsemixer
+super + shift + u
+    bspc rule -a \* -o state=floating && pavucontrol # kitty -e /bin/zsh -c pulsemixer
+
+# pulsemixer volume UP (+5)
+#super + F8
+#	pulsemixer --change-volume +5
+
+# pulsemixer volume DOWN (-5)
+#super + F7
+#	pulsemixer --change-volume -5
+
+# pulsemixer volume MUTE (0)
+#super + F5
+#	pulsemixer --toggle-mute
+
+# ------------------------------------------------------------------------
+
+#
+# bspwm hotkeys
+#
+
+# system shutdown
+super + alt + s
+    systemctl poweroff
+
+# system restart
+super + alt + r
+    reboot
+
+# quit/restart bspwm
+super + ctrl + {q,r}
+	bspc {quit,wm -r}
+
+# close and kill
+super + q
+	bspc node -c
+super + shift + q
+    xkill
+super + x
+    ~/.config/polybar/scripts/rofi-poweroff.sh
+#bspc node -{c,k}
+
+# alternate between the tiled and monocle layout
+super + m
+	bspc desktop -l next
+
+# send the newest marked node to the newest preselected node
+#super + y
+#	bspc node newest.marked.local -n newest.!automatic.local
+
+# swap the current node and the biggest node
+#super + g
+	#bspc node -s biggest
+
+#
+# state/flags
+#
+
+# set the window state
+super + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# set the node flags
+#super + ctrl + {m,x,y,z}
+#    bspc node -g {marked,locked,sticky,private}
+
+#
+# focus/swap
+#
+
+# focus the node in the given direction
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+# focus the node for the given path jump
+#super + {p,b,comma,period}
+#	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous node in the current desktop
+#super + {_,shift + }c
+#	bspc node -f {next,prev}.local
+
+# focus the next/previous desktop in the current monitor
+#super + bracket{left,right}
+#	bspc desktop -f {prev,next}.local
+
+# focus the last node/desktop
+#super + {grave,Tab}
+#	bspc {node,desktop} -f last
+
+# focus the older or newer node in the focus history
+#super + {o,i}
+#	bspc wm -h off; \
+#	bspc node {older,newer} -f; \
+#	bspc wm -h on
+
+# focus or send to the given desktop
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}' --follow
+super + {_,ctrl + } KP_{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}' --follow
+
+
+ctrl + alt + {Left,Right}
+    bspc node -d {prev,next} -f
+
+ctrl + alt + {h,l}
+    bspc node -d {prev,next} -f
+#
+#
+# preselect
+#
+
+# preselect the direction
+#super + ctrl + {Left,Down,Up,Right}
+	#bspc node -p {west,south,north,east}
+
+#super + ctrl + {h,j,k,l}
+	#bspc node -p {west,south,north,east}
+
+# preselect the ratio
+#super + ctrl + {1-9}
+	#bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+#super + ctrl + space
+	#bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+#super + ctrl + shift + space
+	#bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+#super + alt + {Left,Down,Up,Right}
+#	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+#super + alt + shift + {Left,Down,Up,Right}
+#	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# move a floating window
+#super + {Left,Down,Up,Right}
+#	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+#super + shift + g : {plus,minus}
+    #bspc config window_gap $(( $(bspc config window_gap) {+,-} 5 ))
+
+XF86Audio{Raise,Lower}Volume
+    amixer -D pulse set Master 5%{+,-} unmute
+super + {F7,F8}
+    amixer -D pulse set Master 5%{-,+} unmute
+
+XF86AudioMute
+    amixer -D pulse set Master 1+ toggle
+super + F6
+    amixer -D pulse set Master 1+ toggle
+
+XF86MonBrightness{Up,Down}
+    backlight_control {+,-}10
+super + {F2,F3}
+    backlight_control {-,+}10
+
+XF86Audio{Prev,Play,Next}
+    playerctl {previous,play-pause,next}
+super + {F9,F10,F11}
+    playerctl {previous,play-pause,next}
+
+# Night mode
+super + n
+    redshift -O 4000
+super + shift + n
+    redshift -x
+# Player
+super + p
+    ~/.config/rofi/scripts/music.sh

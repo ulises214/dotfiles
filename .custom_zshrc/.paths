@@ -1,0 +1,13 @@
+#!/bin/bash
+#FVM
+
+export PATH="$PATH:/home/ulisesr/fvm/default/bin"
+
+#export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+export PATH="/home/ulisesr/.local/bin:$PATH"
+
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+# ? IDK
+#export PATH="/usr/local/sbin:/usr/local/bin:/usr/bin:$PATH"

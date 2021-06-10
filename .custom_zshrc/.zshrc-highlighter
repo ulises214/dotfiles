@@ -1,0 +1,15 @@
+#!/bin/bash
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root line)
+
+ZSH_HIGHLIGHT_STYLES[command]='fg=#B97CF9'
+ZSH_HIGHLIGHT_STYLES[alias]='fg=#33F5FF'
+ZSH_HIGHLIGHT_STYLES[function]='fg=#F22B29'
+ZSH_HIGHLIGHT_STYLES[commandseparator]='fg=#C1ECD5'
+ZSH_HIGHLIGHT_STYLES[path]='fg=#00AFFF'
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=#00AFFF'
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=#00AFFF'
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=#00AFFF'
+ZSH_HIGHLIGHT_STYLES[redirection]='fg=#FA946E'
+ZSH_HIGHLIGHT_STYLES[root]='bg=F32E2B'
