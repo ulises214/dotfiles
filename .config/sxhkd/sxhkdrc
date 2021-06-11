@@ -66,8 +66,10 @@ super + shift + p
 #ctrl + alt + c
 #    code
 super + shift + c
-    zsh -ic 'color'
-
+    sh -c 'colorpicker --short --one-shot | perl -pe chomp | xclip -sel clip'
+# lock screen 
+super + shift + l
+    sh -c 'betterlockscreen_rapid 5 5'
 # screenshot (entire screen)
 Print
     scrot $HOME/Pictures/Screenshots/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'
