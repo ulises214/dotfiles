@@ -99,7 +99,7 @@
     #time                    # current time
     #todo                    # todo items (https://github.com/todotxt/todo.txt-cli)
     # =========================[ Line #2 ]=========================
-    newline
+    #newline
     #rvv
     node_version
     fvm
