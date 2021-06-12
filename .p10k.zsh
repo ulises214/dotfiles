@@ -47,8 +47,8 @@
   typeset -g POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(
     # =========================[ Line #1 ]=========================
     status                  # exit code of the last command
-    command_execution_time  # duration of the last command
-    background_jobs         # presence of background jobs
+    #command_execution_time  # duration of the last command
+    #background_jobs         # presence of background jobs
     #direnv                  # direnv status (https://direnv.net/)
     #asdf                    # asdf version manager (https://github.com/asdf-vm/asdf)
     #virtualenv              # python virtual environment (https://docs.python.org/3/library/venv.html)
@@ -96,14 +96,14 @@
     # swap                  # used swap
     #timewarrior             # timewarrior tracking status (https://timewarrior.net/)
     #taskwarrior             # taskwarrior task count (https://taskwarrior.org/)
-    time                    # current time
+    #time                    # current time
     #todo                    # todo items (https://github.com/todotxt/todo.txt-cli)
     # =========================[ Line #2 ]=========================
     newline
     #rvv
     node_version
     fvm
-    rbenv
+    #rbenv
     #ip                    # ip address and bandwidth usage for a specified network interface
     #newline
     #public_ip             # public IP address
