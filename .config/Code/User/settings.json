@@ -1,0 +1,180 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.linkedEditing": true,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 26,
+  "editor.inlineHints.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 75,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "terminal.integrated.fontSize": 26,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "glassit-linux.opacity": 80,
+  "glassit.alpha": 1,
+  "debug.console.fontSize": 26,
+  "markdown.preview.fontSize": 26,
+  "markdown.preview.lineHeight": 1.5,
+  "rest-client.fontSize": 26,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.erb": "erb"
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+  },
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "javascript": "javascriptreact"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.lineHeight": 52,
+  "debug.console.lineHeight": 52,
+  "terminal.integrated.lineHeight": 1.5,
+  "editor.cursorWidth": 6,
+
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FA5AA4",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#63C5EA",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#fff",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "#282E3A",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#B97CF9",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.fontFamily": "'Victor Mono','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "dart.checkForSdkUpdates": false,
+  "[dart]": {
+    "editor.rulers": [80],
+    "editor.selectionHighlight": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+
+  "todo-tree.tree.showScanModeButton": false,
+  "php.validate.executablePath": "/opt/lampp/bin/php",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "sql-formatter.uppercase": true,
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MariaDB",
+      "name": "local",
+      "database": "classicmodels",
+      "username": "root",
+      "password": ""
+    }
+  ],
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "tabnine.experimentalAutoImports": true,
+  "window.zoomLevel": -2
+}
