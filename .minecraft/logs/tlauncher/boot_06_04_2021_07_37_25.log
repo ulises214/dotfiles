@@ -1,0 +1,84 @@
+
+-------------------------------------------------------------------
+run double running protection
+[Downloader2] Loaded configuration: normal
+[Bootstrapper] createLauncher
+path /home/ulisesr/.tlauncher/jvms/jre1.8.0_51
+[Bootstrapper] choose jvm:/home/ulisesr/.tlauncher/jvms/jre1.8.0_51/bin/java
+[Bootstrapper] validate files
+[Bootstrapper] end validated files
+[Bootstrapper] Starting launcher...
+> Loading configuration from file: /home/ulisesr/.tlauncher/tlauncher-2.0.properties
+> [Configuration] Constant values: {}
+> [Loading] INITIALIZING
+> Starting TLauncher 2.75 RELEASE
+> For more information, visit https://tlauncher.org/
+> Startup time: 4/06/2021 07:37:38 AM
+> ---
+> run double running protection
+> [Loading] LOADING_CONFIGURATION
+> Machine info: -------------------------------------------------------
+> Linux 5.10.41-1-lts, Java 1.8.0_51, jvm bit x64, 11437 MB RAM
+> java path=/home/ulisesr/.tlauncher/jvms/jre1.8.0_51/bin/java
+> -------------------------------------------------------
+> Selected locale: es_ES
+> [Loading] LOADING_CONSOLE
+> [Downloader2] Loaded configuration: good
+> [Updater] Requesting an update...
+> [Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_2.0.json
+> [Updater] Making request: http://repo.tlauncher.org/update/lch/update_2.0.json?version=2.75&client=6e8d741d-bc63-407a-8936-d64796a0b90e
+> [Updater] Request time: 924 ms
+> [Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_2.0.json
+> [Browser] Loading resources...
+> [Browser] Loading background...
+> [Browser] Cleaning up after loading:
+> Starting garbage collector: 102 / 156 MB
+> Garbage collector completed: 22 / 225 MB
+> [Loading] LOADING_MANAGERS
+> [LocalVersionList] Base directory: /home/ulisesr/.minecraft
+> [ProfileManager] Refreshing profiles from: /home/ulisesr/.minecraft/TlauncherProfiles.json
+> [GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.7.json
+> [AdvertisingStatusObserver]  started to get ad information
+> [JFXStartPageLoader]  start load page: http://page.tlauncher.org/update/downloads/configs/client/index_es.htm
+> [Browser] Running in JavaFX Thread
+> [Browser] Preparing JavaFX...
+> [Browser] Initializing...
+> [AdvertisingStatusObserver]  finished to get add information
+> [Loading] LOADING_WINDOW
+> [Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+> [REPO][SERVER_LIST_REPO] Success: Reached the repo in 220 ms.
+> [Loading] PREPARING_MAINPANE
+> jun 04, 2021 7:37:48 AM com.sun.webkit.network.URLLoader doRun
+> ADVERTENCIA: Unexpected error
+> java.net.ProtocolException: Cannot write output after reading input.
+> 	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1278)
+> 	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1257)
+> 	at com.sothawo.mapjfx.cache.CachingHttpURLConnection.getOutputStream(CachingHttpURLConnection.java:297)
+> 	at com.sun.webkit.network.URLLoader.sendRequest(URLLoader.java:358)
+> 	at com.sun.webkit.network.URLLoader.doRun(URLLoader.java:161)
+> 	at com.sun.webkit.network.URLLoader.lambda$run$90(URLLoader.java:127)
+> 	at com.sun.webkit.network.URLLoader$$Lambda$127/1986628404.run(Unknown Source)
+> 	at java.security.AccessController.doPrivileged(Native Method)
+> 	at com.sun.webkit.network.URLLoader.run(URLLoader.java:126)
+> 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+> 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+> 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+> 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+> 	at java.lang.Thread.run(Thread.java:745)
+> 
+> [JFXStartPageLoader]  succeeded load page: http://page.tlauncher.org/update/downloads/configs/client/index_es.htm during 3
+> [Browser@641864325] Loaded successfully: "http://page.tlauncher.org/update/downloads/configs/client/index_es.htm"
+> [Browser] add listens into server_choose
+> [Browser] finished listens into server_choose
+> [Downloader2] Loaded configuration: good
+> [Loading] POSTINIT_GUI
+> [Frame] Packing main frame...
+> [Frame] Resizing main pane...
+> Updater is already closed. Showing up...
+> Visibility set.
+> [Loading] REFRESHING_INFO
+> [VersionManager] Refreshing versions remotely...
+> [REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 20000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+> Started! (22610 ms.)
+> [Loading] SUCCESS
+[Bootstrapper] I can be terminated now: 0

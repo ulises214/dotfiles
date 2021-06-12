@@ -1,0 +1,551 @@
+[07:41:55] [main/INFO]: Loading tweak class name optifine.OptiFineTweaker
+[07:41:55] [main/INFO]: Using primary tweak class name optifine.OptiFineTweaker
+[07:41:55] [main/INFO]: Loading tweak class name org.tlauncher.tweaker.Tweaker
+[07:41:55] [main/INFO]: Calling tweak class optifine.OptiFineTweaker
+[07:41:55] [main/INFO]: Calling tweak class org.tlauncher.tweaker.Tweaker
+[07:41:55] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Field not found: World.tileEntitiesToBeRemoved
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.eventbus.api.Event$Result
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.hasTileEntity
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeEntity
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.CrashReportExtender
+[07:41:58] [main/INFO]: [OptiFine] (Reflector) Method not present: aeg.createOptional
+[07:42:06] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[07:42:07] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:42:07] [main/INFO]: Setting user: walle214
+[07:42:07] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.settings.KeyConflictContext
+[07:42:07] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.settings.KeyModifier
+[07:42:07] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[07:42:07] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.fml.loading.progress.EarlyProgressVisualization.handOffWindow
+[07:42:09] [main/INFO]: [OptiFine] 
+[07:42:09] [main/INFO]: [OptiFine] OptiFine_1.16.5_HD_U_G8_pre11
+[07:42:09] [main/INFO]: [OptiFine] Build: 20210324-231709
+[07:42:09] [main/INFO]: [OptiFine] OS: Linux (amd64) version 5.10.41-1-lts
+[07:42:09] [main/INFO]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[07:42:09] [main/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[07:42:09] [main/INFO]: [OptiFine] LWJGL: 3.3.0 X11 GLX EGL OSMesa clock_gettime evdev shared
+[07:42:09] [main/INFO]: [OptiFine] OpenGL: AMD STONEY (DRM 3.40.0, 5.10.41-1-lts, LLVM 11.1.0), version 4.5 (Compatibility Profile) Mesa 21.1.1, AMD
+[07:42:09] [main/INFO]: [OptiFine] OpenGL Version: 4.5.0
+[07:42:09] [main/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[07:42:09] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[07:42:09] [main/INFO]: [Shaders] OpenGL Version: 4.5 (Compatibility Profile) Mesa 21.1.1
+[07:42:09] [main/INFO]: [Shaders] Vendor:  AMD
+[07:42:09] [main/INFO]: [Shaders] Renderer: AMD STONEY (DRM 3.40.0, 5.10.41-1-lts, LLVM 11.1.0)
+[07:42:09] [main/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[07:42:09] [main/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[07:42:09] [main/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[07:42:09] [main/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[07:42:09] [main/INFO]: [Shaders] Load shaders configuration.
+[07:42:09] [main/INFO]: [Shaders] Loaded shaderpack: (internal)
+[07:42:09] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[07:42:09] [main/INFO]: [OptiFine] Using legacy block aliases: flattening_ids.txt
+[07:42:09] [VersionCheck/INFO]: [OptiFine] Version found: G7
+[07:42:10] [main/INFO]: [OptiFine] Legacy block aliases: 2751
+[07:42:10] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
+[07:42:10] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
+[07:42:11] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer
+[07:42:12] [main/WARN]: ERROR : Couldn't load Narrator library : Unable to load library 'fliteWrapper': Native library (linux-x86-64/libfliteWrapper.so) not found in resource path ([file:/home/ulisesr/.minecraft/libraries/org/tlauncher/tl_skin_cape_opti_1.16.5/1.19_opti/tl_skin_cape_opti_1.16.5-1.19_opti.jar, file:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar, file:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm/6.2/asm-6.2.jar, file:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar, file:/home/ulisesr/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar, file:/home/ulisesr/.minecraft/libraries/optifine/OptiFine/1.16.5_HD_U_G8_pre11/OptiFine-1.16.5_HD_U_G8_pre11.jar, file:/home/ulisesr/.minecraft/libraries/optifine/launchwrapper-of/2.2/launchwrapper-of-2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/tlauncher/patchy/1.1/patchy-1.1.jar, file:/home/ulisesr/.minecraft/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar, file:/home/ulisesr/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar, file:/home/ulisesr/.minecraft/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar, file:/home/ulisesr/.minecraft/libraries/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar, file:/home/ulisesr/.minecraft/libraries/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar, file:/home/ulisesr/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar, file:/home/ulisesr/.minecraft/libraries/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar, file:/home/ulisesr/.minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar, file:/home/ulisesr/.minecraft/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar, file:/home/ulisesr/.minecraft/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, file:/home/ulisesr/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, file:/home/ulisesr/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, file:/home/ulisesr/.minecraft/libraries/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar, file:/home/ulisesr/.minecraft/libraries/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar, file:/home/ulisesr/.minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar, file:/home/ulisesr/.minecraft/libraries/org/tlauncher/authlib/2.0.28.1/authlib-2.0.28.1.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, file:/home/ulisesr/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, file:/home/ulisesr/.minecraft/libraries/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar, file:/home/ulisesr/.minecraft/versions/OptiFine%201.16.5/OptiFine%201.16.5.jar])
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.gui.screen.ModListScreen
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.gui.NotificationModUpdateScreen
+[07:42:13] [main/INFO]: Reloading ResourceManager: Default
+[07:42:13] [main/INFO]: [OptiFine] *** Reloading textures ***
+[07:42:13] [main/INFO]: [OptiFine] Resource packs: Default
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: eab.canRenderInLayer
+[07:42:13] [main/INFO]: [OptiFine] *** Reflector Forge ***
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.BrandingControl
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.capabilities.ICapabilityProvider
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.capabilities.CapabilityProvider
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.ClientModLoader
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkDataEvent$Save
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkEvent$Load
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkEvent$Unload
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.ClientHooks
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.EntityLeaveWorldEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$RenderFogEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.EntityJoinWorldEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.eventbus.api.Event.isCanceled
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.eventbus.api.Event.getResult
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.eventbus.api.IEventBus
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeBlock
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: eaw.getTexture
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.addDestroyEffects
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.addHitEffects
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getLightValue
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getSoundType
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getStateAtViewpoint
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.isAir
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.shouldDisplayFluidOverlay
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeFluid
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fluids.FluidAttributes
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: aqe.getTags
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: cuw.getTags
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfig
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfig$Client
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfigSpec
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfigSpec$ConfigValue
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: cfw.getWorldForge
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeItem
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeItemStack
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.ForgeI18n
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: djw.setKeyConflictContext
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: djw.setKeyModifierAndCode
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: djw.getKeyModifier
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeEffectInstance
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.registries.ForgeRegistryEntry
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: eab.canRenderInLayer
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Constructor not present: aak, params: class aal, int, class java.lang.Object, boolean
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: aak.isForceTicks
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeTileEntity
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: dzv.getCloudRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: dzv.getSkyRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: dzv.getWeatherParticleRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: dzv.getWeatherRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoaderRegistry
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.entity.PartEntity
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.PlaySoundAtEntityEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderGameOverlayEvent$BossInfo
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderNameplateEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.ScreenshotEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.server.ServerLifecycleHooks
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
+[07:42:13] [main/INFO]: [OptiFine] *** Reflector Vanilla ***
+[07:42:15] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] Multipass connected textures: false
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[07:42:34] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 4
+[07:42:34] [Worker-Main-3/INFO]: [OptiFine] Multitexture: false
+[07:42:34] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
+[07:42:34] [Worker-Main-5/INFO]: [OptiFine] Multitexture: false
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:42] [main/INFO]: OpenAL initialized.
+[07:42:42] [main/INFO]: Sound engine started
+[07:42:43] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[07:42:43] [main/INFO]: [Shaders] Allocate texture map normal: 1024x512, mipmaps: 4
+[07:42:43] [main/INFO]: [Shaders] Allocate texture map specular: 1024x512, mipmaps: 4
+[07:42:43] [main/INFO]: [OptiFine] Animated sprites: 43
+[07:42:44] [main/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 256x128, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 256x128, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 512x256, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 512x256, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 512x256, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 512x256, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:45] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 0
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 0
+[07:42:45] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:45] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 0
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 0
+[07:42:45] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:45] [main/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map normal: 128x128, mipmaps: 0
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map specular: 128x128, mipmaps: 0
+[07:42:45] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:45] [main/INFO]: [OptiFine] *** Reloading custom textures ***
+[07:42:48] [main/INFO]: [OptiFine] Disable Forge light pipeline
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:43:05] [main/INFO]: Reloading ResourceManager: Default
+[07:43:07] [main/INFO]: Loaded 7 recipes
+[07:43:08] [main/INFO]: Loaded 927 advancements
+[07:43:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:43:11] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[07:43:11] [Server thread/INFO]: Generating keypair
+[07:43:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:19] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:19] [main/INFO]: Preparando zona de aparición: 30 %
+[07:43:19] [main/INFO]: Preparando zona de aparición: 78 %
+[07:43:21] [main/INFO]: Time elapsed: 8493 ms
+[07:43:23] [Server thread/INFO]: Changing view distance to 15, from 10
+[07:43:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[07:43:28] [Server thread/INFO]: walle214[local:E:3b226317] logged in with entity id 166 at (407.47343809768824, 56.0, 125.30000001192093)
+[07:43:28] [Server thread/INFO]: walle214 se ha unido a la partida
+[07:43:30] [Server thread/INFO]: Saving and pausing game...
+[07:43:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:overworld
+[07:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_nether
+[07:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_end
+[07:43:32] [main/INFO]: [Shaders] usedColorBuffers: 4
+[07:43:32] [main/INFO]: [Shaders] usedDepthBuffers: 1
+[07:43:32] [main/INFO]: [Shaders] usedShadowColorBuffers: 0
+[07:43:32] [main/INFO]: [Shaders] usedShadowDepthBuffers: 0
+[07:43:32] [main/INFO]: [Shaders] usedColorAttachs: 4
+[07:43:32] [main/INFO]: [Shaders] usedDrawBuffers: 1
+[07:43:32] [main/INFO]: [Shaders] bindImageTextures: false
+[07:43:32] [main/INFO]: [Shaders] Framebuffer created: dfb
+[07:43:32] [main/INFO]: [Shaders] Reset model renderers
+[07:43:32] [main/INFO]: [Shaders] Reset world renderers
+[07:43:34] [main/INFO]: Loaded 69 advancements
+[07:43:37] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[07:43:39] [Server thread/INFO]: Saving and pausing game...
+[07:43:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:overworld
+[07:43:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_nether
+[07:43:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_end
+[07:43:40] [Server thread/INFO]: walle214 lost connection: Desconectado
+[07:43:40] [Server thread/INFO]: walle214 ha abandonado la partida
+[07:43:40] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[07:43:41] [Server thread/INFO]: Stopping server
+[07:43:41] [Server thread/INFO]: Saving players
+[07:43:41] [Server thread/INFO]: Saving worlds
+[07:43:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:overworld
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (atarashi sekai): All chunks are saved
+[07:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_nether
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_end
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (atarashi sekai): All chunks are saved
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:43:48] [main/INFO]: Attempt 1...
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:44:05] [main/INFO]: Reloading ResourceManager: Default
+[07:44:07] [main/INFO]: Loaded 7 recipes
+[07:44:07] [main/INFO]: Loaded 927 advancements
+[07:44:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:44:08] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[07:44:08] [Server thread/INFO]: Generating keypair
+[07:44:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:44:37] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:37] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:38] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:38] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:39] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:40] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:40] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:40] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:41] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:42] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:42] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:42] [main/INFO]: Preparando zona de aparición: 1 %
+[07:44:43] [main/INFO]: Preparando zona de aparición: 1 %
+[07:44:43] [main/INFO]: Preparando zona de aparición: 1 %
+[07:44:44] [main/INFO]: Preparando zona de aparición: 1 %
+[07:44:44] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:45] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:45] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:46] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:46] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:47] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:47] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:48] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:48] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:49] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:49] [main/INFO]: Preparando zona de aparición: 4 %
+[07:44:50] [main/INFO]: Preparando zona de aparición: 4 %
+[07:44:50] [main/INFO]: Preparando zona de aparición: 4 %
+[07:44:51] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:51] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:52] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:52] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:53] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:53] [main/INFO]: Preparando zona de aparición: 6 %
+[07:44:54] [main/INFO]: Preparando zona de aparición: 6 %
+[07:44:54] [main/INFO]: Preparando zona de aparición: 7 %
+[07:44:55] [main/INFO]: Preparando zona de aparición: 7 %
+[07:44:55] [main/INFO]: Preparando zona de aparición: 8 %
+[07:44:56] [main/INFO]: Preparando zona de aparición: 8 %
+[07:44:56] [main/INFO]: Preparando zona de aparición: 9 %
+[07:44:57] [main/INFO]: Preparando zona de aparición: 9 %
+[07:44:57] [main/INFO]: Preparando zona de aparición: 9 %
+[07:44:58] [main/INFO]: Preparando zona de aparición: 9 %
+[07:44:58] [main/INFO]: Preparando zona de aparición: 10 %
+[07:44:59] [main/INFO]: Preparando zona de aparición: 10 %
+[07:44:59] [main/INFO]: Preparando zona de aparición: 10 %
+[07:45:00] [main/INFO]: Preparando zona de aparición: 10 %
+[07:45:00] [main/INFO]: Preparando zona de aparición: 11 %
+[07:45:01] [main/INFO]: Preparando zona de aparición: 11 %
+[07:45:01] [main/INFO]: Preparando zona de aparición: 12 %
+[07:45:02] [main/INFO]: Preparando zona de aparición: 12 %
+[07:45:02] [main/INFO]: Preparando zona de aparición: 12 %
+[07:45:03] [main/INFO]: Preparando zona de aparición: 13 %
+[07:45:03] [main/INFO]: Preparando zona de aparición: 13 %
+[07:45:04] [main/INFO]: Preparando zona de aparición: 14 %
+[07:45:04] [main/INFO]: Preparando zona de aparición: 14 %
+[07:45:05] [main/INFO]: Preparando zona de aparición: 14 %
+[07:45:05] [main/INFO]: Preparando zona de aparición: 15 %
+[07:45:06] [main/INFO]: Preparando zona de aparición: 15 %
+[07:45:06] [main/INFO]: Preparando zona de aparición: 15 %
+[07:45:07] [main/INFO]: Preparando zona de aparición: 16 %
+[07:45:07] [main/INFO]: Preparando zona de aparición: 16 %
+[07:45:08] [main/INFO]: Preparando zona de aparición: 16 %
+[07:45:08] [main/INFO]: Preparando zona de aparición: 16 %
+[07:45:09] [main/INFO]: Preparando zona de aparición: 17 %
+[07:45:09] [main/INFO]: Preparando zona de aparición: 17 %
+[07:45:10] [main/INFO]: Preparando zona de aparición: 17 %
+[07:45:10] [main/INFO]: Preparando zona de aparición: 18 %
+[07:45:11] [main/INFO]: Preparando zona de aparición: 18 %
+[07:45:11] [main/INFO]: Preparando zona de aparición: 19 %
+[07:45:12] [main/INFO]: Preparando zona de aparición: 20 %
+[07:45:12] [main/INFO]: Preparando zona de aparición: 20 %
+[07:45:13] [main/INFO]: Preparando zona de aparición: 20 %
+[07:45:13] [main/INFO]: Preparando zona de aparición: 21 %
+[07:45:14] [main/INFO]: Preparando zona de aparición: 22 %
+[07:45:14] [main/INFO]: Preparando zona de aparición: 22 %
+[07:45:15] [main/INFO]: Preparando zona de aparición: 22 %
+[07:45:15] [main/INFO]: Preparando zona de aparición: 22 %
+[07:45:16] [main/INFO]: Preparando zona de aparición: 23 %
+[07:45:16] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:17] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:18] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:18] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:18] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:19] [main/INFO]: Preparando zona de aparición: 25 %
+[07:45:19] [main/INFO]: Preparando zona de aparición: 25 %
+[07:45:20] [main/INFO]: Preparando zona de aparición: 26 %
+[07:45:20] [main/INFO]: Preparando zona de aparición: 26 %
+[07:45:21] [main/INFO]: Preparando zona de aparición: 26 %
+[07:45:21] [main/INFO]: Preparando zona de aparición: 27 %
+[07:45:22] [main/INFO]: Preparando zona de aparición: 28 %
+[07:45:22] [main/INFO]: Preparando zona de aparición: 28 %
+[07:45:23] [main/INFO]: Preparando zona de aparición: 30 %
+[07:45:23] [main/INFO]: Preparando zona de aparición: 30 %
+[07:45:24] [main/INFO]: Preparando zona de aparición: 31 %
+[07:45:24] [main/INFO]: Preparando zona de aparición: 31 %
+[07:45:25] [main/INFO]: Preparando zona de aparición: 31 %
+[07:45:25] [main/INFO]: Preparando zona de aparición: 32 %
+[07:45:26] [main/INFO]: Preparando zona de aparición: 32 %
+[07:45:26] [main/INFO]: Preparando zona de aparición: 32 %
+[07:45:27] [main/INFO]: Preparando zona de aparición: 33 %
+[07:45:27] [main/INFO]: Preparando zona de aparición: 33 %
+[07:45:28] [main/INFO]: Preparando zona de aparición: 34 %
+[07:45:28] [main/INFO]: Preparando zona de aparición: 34 %
+[07:45:29] [main/INFO]: Preparando zona de aparición: 34 %
+[07:45:29] [main/INFO]: Preparando zona de aparición: 35 %
+[07:45:30] [main/INFO]: Preparando zona de aparición: 35 %
+[07:45:30] [main/INFO]: Preparando zona de aparición: 36 %
+[07:45:31] [main/INFO]: Preparando zona de aparición: 37 %
+[07:45:31] [main/INFO]: Preparando zona de aparición: 37 %
+[07:45:32] [main/INFO]: Preparando zona de aparición: 37 %
+[07:45:33] [main/INFO]: Preparando zona de aparición: 38 %
+[07:45:33] [main/INFO]: Preparando zona de aparición: 39 %
+[07:45:33] [main/INFO]: Preparando zona de aparición: 39 %
+[07:45:34] [main/INFO]: Preparando zona de aparición: 40 %
+[07:45:34] [main/INFO]: Preparando zona de aparición: 41 %
+[07:45:35] [main/INFO]: Preparando zona de aparición: 41 %
+[07:45:35] [main/INFO]: Preparando zona de aparición: 41 %
+[07:45:36] [main/INFO]: Preparando zona de aparición: 42 %
+[07:45:36] [main/INFO]: Preparando zona de aparición: 42 %
+[07:45:37] [main/INFO]: Preparando zona de aparición: 42 %
+[07:45:37] [main/INFO]: Preparando zona de aparición: 42 %
+[07:45:38] [main/INFO]: Preparando zona de aparición: 43 %
+[07:45:38] [main/INFO]: Preparando zona de aparición: 44 %
+[07:45:39] [main/INFO]: Preparando zona de aparición: 45 %
+[07:45:39] [main/INFO]: Preparando zona de aparición: 45 %
+[07:45:40] [main/INFO]: Preparando zona de aparición: 46 %
+[07:45:40] [main/INFO]: Preparando zona de aparición: 46 %
+[07:45:41] [main/INFO]: Preparando zona de aparición: 47 %
+[07:45:41] [main/INFO]: Preparando zona de aparición: 48 %
+[07:45:42] [main/INFO]: Preparando zona de aparición: 49 %
+[07:45:42] [main/INFO]: Preparando zona de aparición: 49 %
+[07:45:43] [main/INFO]: Preparando zona de aparición: 50 %
+[07:45:43] [main/INFO]: Preparando zona de aparición: 51 %
+[07:45:44] [main/INFO]: Preparando zona de aparición: 52 %
+[07:45:44] [main/INFO]: Preparando zona de aparición: 53 %
+[07:45:45] [main/INFO]: Preparando zona de aparición: 54 %
+[07:45:45] [main/INFO]: Preparando zona de aparición: 54 %
+[07:45:46] [main/INFO]: Preparando zona de aparición: 55 %
+[07:45:46] [main/INFO]: Preparando zona de aparición: 55 %
+[07:45:47] [main/INFO]: Preparando zona de aparición: 56 %
+[07:45:47] [main/INFO]: Preparando zona de aparición: 56 %
+[07:45:48] [main/INFO]: Preparando zona de aparición: 57 %
+[07:45:48] [main/INFO]: Preparando zona de aparición: 58 %
+[07:45:49] [main/INFO]: Preparando zona de aparición: 58 %
+[07:45:49] [main/INFO]: Preparando zona de aparición: 59 %
+[07:45:50] [main/INFO]: Preparando zona de aparición: 60 %
+[07:45:50] [main/INFO]: Preparando zona de aparición: 61 %
+[07:45:51] [main/INFO]: Preparando zona de aparición: 61 %
+[07:45:51] [main/INFO]: Preparando zona de aparición: 62 %
+[07:45:52] [main/INFO]: Preparando zona de aparición: 62 %
+[07:45:52] [main/INFO]: Preparando zona de aparición: 63 %
+[07:45:53] [main/INFO]: Preparando zona de aparición: 64 %
+[07:45:53] [main/INFO]: Preparando zona de aparición: 65 %
+[07:45:54] [main/INFO]: Preparando zona de aparición: 65 %
+[07:45:54] [main/INFO]: Preparando zona de aparición: 66 %
+[07:45:55] [main/INFO]: Preparando zona de aparición: 67 %
+[07:45:55] [main/INFO]: Preparando zona de aparición: 68 %
+[07:45:56] [main/INFO]: Preparando zona de aparición: 68 %
+[07:45:56] [main/INFO]: Preparando zona de aparición: 69 %
+[07:45:57] [main/INFO]: Preparando zona de aparición: 69 %
+[07:45:57] [main/INFO]: Preparando zona de aparición: 70 %
+[07:45:58] [main/INFO]: Preparando zona de aparición: 71 %
+[07:45:58] [main/INFO]: Preparando zona de aparición: 71 %
+[07:45:59] [main/INFO]: Preparando zona de aparición: 71 %
+[07:45:59] [main/INFO]: Preparando zona de aparición: 72 %
+[07:46:00] [main/INFO]: Preparando zona de aparición: 72 %
+[07:46:00] [main/INFO]: Preparando zona de aparición: 73 %
+[07:46:01] [main/INFO]: Preparando zona de aparición: 74 %
+[07:46:01] [main/INFO]: Preparando zona de aparición: 75 %
+[07:46:02] [main/INFO]: Preparando zona de aparición: 75 %
+[07:46:02] [main/INFO]: Preparando zona de aparición: 77 %
+[07:46:03] [main/INFO]: Preparando zona de aparición: 78 %
+[07:46:03] [main/INFO]: Preparando zona de aparición: 78 %
+[07:46:04] [main/INFO]: Preparando zona de aparición: 79 %
+[07:46:04] [main/INFO]: Preparando zona de aparición: 80 %
+[07:46:05] [main/INFO]: Preparando zona de aparición: 80 %
+[07:46:05] [main/INFO]: Preparando zona de aparición: 80 %
+[07:46:06] [main/INFO]: Preparando zona de aparición: 82 %
+[07:46:06] [main/INFO]: Preparando zona de aparición: 83 %
+[07:46:07] [main/INFO]: Preparando zona de aparición: 83 %
+[07:46:07] [main/INFO]: Preparando zona de aparición: 84 %
+[07:46:08] [main/INFO]: Preparando zona de aparición: 85 %
+[07:46:08] [main/INFO]: Preparando zona de aparición: 85 %
+[07:46:09] [main/INFO]: Preparando zona de aparición: 86 %
+[07:46:09] [main/INFO]: Preparando zona de aparición: 86 %
+[07:46:10] [main/INFO]: Preparando zona de aparición: 87 %
+[07:46:10] [main/INFO]: Preparando zona de aparición: 88 %
+[07:46:11] [main/INFO]: Preparando zona de aparición: 89 %
+[07:46:11] [main/INFO]: Preparando zona de aparición: 89 %
+[07:46:12] [main/INFO]: Preparando zona de aparición: 90 %
+[07:46:12] [main/INFO]: Preparando zona de aparición: 91 %
+[07:46:13] [main/INFO]: Preparando zona de aparición: 92 %
+[07:46:13] [main/INFO]: Preparando zona de aparición: 92 %
+[07:46:14] [main/INFO]: Preparando zona de aparición: 94 %
+[07:46:14] [main/INFO]: Preparando zona de aparición: 94 %
+[07:46:15] [main/INFO]: Preparando zona de aparición: 95 %
+[07:46:15] [main/INFO]: Preparando zona de aparición: 95 %
+[07:46:16] [main/INFO]: Preparando zona de aparición: 96 %
+[07:46:16] [main/INFO]: Preparando zona de aparición: 96 %
+[07:46:17] [main/INFO]: Preparando zona de aparición: 97 %
+[07:46:17] [main/INFO]: Preparando zona de aparición: 98 %
+[07:46:18] [main/INFO]: Preparando zona de aparición: 98 %
+[07:46:18] [main/INFO]: Preparando zona de aparición: 99 %
+[07:46:19] [main/INFO]: Time elapsed: 101959 ms
+[07:46:20] [Server thread/INFO]: Changing view distance to 15, from 10
+[07:46:20] [Server thread/INFO]: walle214[local:E:36dfd11e] logged in with entity id 535 at (-59.5, 77.0, -263.5)
+[07:46:20] [Server thread/INFO]: walle214 se ha unido a la partida
+[07:46:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2239ms or 44 ticks behind
+[07:46:22] [Server thread/INFO]: Saving and pausing game...
+[07:46:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:overworld
+[07:46:23] [main/INFO]: Loaded 0 advancements
+[07:46:24] [main/INFO]: calculated cape performance:TEXTURE_272, middle time: 3.1666666666666665
+[07:46:25] [main/INFO]: textures 'elitra_test_272' was added, skin: false,cape: true, max waiting: 20 ,during : 268784 
+[07:46:25] [main/INFO]: can use texture size:TEXTURE_272, middle time: 7.4
+[07:46:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_nether
+[07:46:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_end
+[07:46:40] [Server thread/INFO]: Saving and pausing game...
+[07:46:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:overworld
+[07:46:41] [main/INFO]: Stopping!
+[07:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_nether
+[07:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_end
+[07:46:43] [Server thread/INFO]: walle214 lost connection: Desconectado
+[07:46:43] [Server thread/INFO]: walle214 ha abandonado la partida
+[07:46:43] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[07:46:43] [Server thread/INFO]: Stopping server
+[07:46:43] [Server thread/INFO]: Saving players
+[07:46:43] [Server thread/INFO]: Saving worlds
+[07:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:overworld
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (pitote): All chunks are saved
+[07:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_nether
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_end
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (pitote): All chunks are saved
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

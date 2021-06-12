@@ -1,0 +1,859 @@
+[Loading] INITIALIZING
+Starting TLauncher 2.75 RELEASE
+For more information, visit https://tlauncher.org/
+Startup time: 4/06/2021 07:37:38 AM
+---
+run double running protection
+[Loading] LOADING_CONFIGURATION
+Machine info: -------------------------------------------------------
+Linux 5.10.41-1-lts, Java 1.8.0_51, jvm bit x64, 11437 MB RAM
+java path=/home/ulisesr/.tlauncher/jvms/jre1.8.0_51/bin/java
+-------------------------------------------------------
+Selected locale: es_ES
+[Loading] LOADING_CONSOLE
+[Downloader2] Loaded configuration: good
+[Updater] Requesting an update...
+[Updater] Requesting from: http://repo.tlauncher.org/update/lch/update_2.0.json
+[Updater] Making request: http://repo.tlauncher.org/update/lch/update_2.0.json?version=2.75&client=6e8d741d-bc63-407a-8936-d64796a0b90e
+[Updater] Request time: 924 ms
+[Updater] Successfully requested from: http://repo.tlauncher.org/update/lch/update_2.0.json
+[Browser] Loading resources...
+[Browser] Loading background...
+[Browser] Cleaning up after loading:
+Starting garbage collector: 102 / 156 MB
+Garbage collector completed: 22 / 225 MB
+[Loading] LOADING_MANAGERS
+[LocalVersionList] Base directory: /home/ulisesr/.minecraft
+[ProfileManager] Refreshing profiles from: /home/ulisesr/.minecraft/TlauncherProfiles.json
+[GsonUtil]  request to http://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/authlib/libraries-1.7.json
+[AdvertisingStatusObserver]  started to get ad information
+[JFXStartPageLoader]  start load page: http://page.tlauncher.org/update/downloads/configs/client/index_es.htm
+[Browser] Running in JavaFX Thread
+[Browser] Preparing JavaFX...
+[Browser] Initializing...
+[AdvertisingStatusObserver]  finished to get add information
+[Loading] LOADING_WINDOW
+[Swing] Favicons loaded: 256px, 128px, 96px, 64px, 48px, 32px, 24px, 16px
+[REPO][SERVER_LIST_REPO] Success: Reached the repo in 220 ms.
+[Loading] PREPARING_MAINPANE
+[JFXStartPageLoader]  succeeded load page: http://page.tlauncher.org/update/downloads/configs/client/index_es.htm during 3
+[Browser@641864325] Loaded successfully: "http://page.tlauncher.org/update/downloads/configs/client/index_es.htm"
+[Browser] add listens into server_choose
+[Browser] finished listens into server_choose
+[Downloader2] Loaded configuration: good
+[Loading] POSTINIT_GUI
+[Frame] Packing main frame...
+[Frame] Resizing main pane...
+Updater is already closed. Showing up...
+Visibility set.
+[Loading] REFRESHING_INFO
+[VersionManager] Refreshing versions remotely...
+[REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 20000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+Started! (22610 ms.)
+[Loading] SUCCESS
+[TLauncher] show tlauncher!!!
+[Double running] clear time label
+[OS] java.io.IOException: Cannot run program "lshw": error=2, No existe el fichero o el directorio
+at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+at java.lang.Runtime.exec(Runtime.java:620)
+at java.lang.Runtime.exec(Runtime.java:450)
+at java.lang.Runtime.exec(Runtime.java:347)
+at org.tlauncher.util.OS.executeByTerminal(OS.java:381)
+at org.tlauncher.util.OS.executeByTerminal(OS.java:397)
+at org.tlauncher.util.TlauncherUtil.fillGPUInfo(TlauncherUtil.java:319)
+at org.tlauncher.tlauncher.rmo.TLauncher.main(TLauncher.java:256)
+Caused by: java.io.IOException: error=2, No existe el fichero o el directorio
+at java.lang.UNIXProcess.forkAndExec(Native Method)
+at java.lang.UNIXProcess.<init>(UNIXProcess.java:248)
+at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+at java.lang.Runtime.exec(Runtime.java:620)
+at java.lang.Runtime.exec(Runtime.java:450)
+at java.lang.Runtime.exec(Runtime.java:347)
+at org.tlauncher.util.OS.executeByTerminal(OS.java:381)
+at org.tlauncher.util.OS.executeByTerminal(OS.java:397)
+at org.tlauncher.util.TlauncherUtil.fillGPUInfo(TlauncherUtil.java:319)
+at org.tlauncher.tlauncher.rmo.TLauncher.main(TLauncher.java:256)
+
+[REPO][OFFICIAL_VERSION_REPO] Attempt #1; timeout: 20000 ms; url: https://launchermeta.mojang.com/mc/game/
+[REPO][EXTRA_VERSION_REPO] Attempt #1; timeout: 20000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/
+[REPO][SKIN_VERSION_REPO] Attempt #1; timeout: 20000 ms; url: http://repo.tlauncher.org/update/downloads/versions/new3/skin/versions/
+[REPO][EXTRA_VERSION_REPO] Success: Reached the repo in 486 ms.
+[REPO][SKIN_VERSION_REPO] Success: Reached the repo in 188 ms.
+[SkinVersionList] Got in 249 ms
+[REPO][EXTRA_VERSION_REPO] Success: Reached the repo in 294 ms.
+[ExtraVersionList] Got in 486 ms
+[REPO][OFFICIAL_VERSION_REPO] Success: Reached the repo in 878 ms.
+[OfficialVersionList] Got in 1111 ms
+[VersionManager] Versions has been refreshed (1456 ms)
+[REPO][ADD_HOT_SERVERS_REPO] Attempt #1; timeout: 20000 ms; url: http://repo.tlauncher.org/update/lch/additional_hot_servers-1.0.json
+[REPO][HOT_SERVERS_REPO] Attempt #1; timeout: 20000 ms; url: http://repo.tlauncher.org/update/lch/servers/hot_servers-1.0.json
+[REPO][ADD_HOT_SERVERS_REPO] Success: Reached the repo in 124 ms.
+[REPO][HOT_SERVERS_REPO] Success: Reached the repo in 381 ms.
+[LoginForm] Catched a wait task from this listener, waiting...
+instancefor: Account{displayName=walle214, type=TLAUNCHER, accessToken=(not null), userid=walle214, uuid=5346d7607a3d11e9bfea002590a1379b, username=walle214}
+[TlauncherAuthenticator] Staring to authenticate: Account{displayName=walle214, type=TLAUNCHER, accessToken=(not null), userid=walle214, uuid=5346d7607a3d11e9bfea002590a1379b, username=walle214}
+[TlauncherAuthenticator] hasUsername: walle214
+[TlauncherAuthenticator] hasPassword: false
+[TlauncherAuthenticator] hasAccessToken: true
+[TlauncherAuthenticator] Loggining in with token
+[TlauncherAuthenticator] Log in successful!
+[TlauncherAuthenticator] hasUUID: true
+[TlauncherAuthenticator] hasAccessToken: true
+[TlauncherAuthenticator] hasProfiles: false
+[TlauncherAuthenticator] hasProfile: false
+[TlauncherAuthenticator] hasProperties: true
+[LoginForm] Login was OK. Trying to launch now.
+[Launcher] Running under TLauncher 2.75
+[Launcher] Collecting info...
+[TLauncherManager] before clearLibrary 
+[TLauncherManager] written:  []
+[TLauncherManager] after clearLibrary 
+[Launcher] Force update: true
+[Launcher] Selected version: OptiFine 1.16.5
+[Launcher] Selected account: Account{displayName=walle214, type=TLAUNCHER, accessToken=(not null), userid=walle214, uuid=5346d7607a3d11e9bfea002590a1379b, username=walle214}
+[Launcher] Version sync info: VersionSyncInfo{id='OptiFine 1.16.5',
+local=CompleteVersion{id='OptiFine 1.16.5', time=Wed Jan 13 10:09:16 CST 2021, release=Thu Jan 14 10:05:32 CST 2021, type=modified, class=net.minecraft.launchwrapper.Launch, minimumVersion=21, assets='1.16', source=LOCAL_VERSION_REPO, list=net.minecraft.launcher.updater.ExtraVersionList@67bb1324, libraries=[Library{name='optifine:OptiFine:1.16.5_HD_U_G8_pre1', rules=null, natives=null, extract=null, packed='null'}, Library{name='optifine:launchwrapper-of:2.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:patchy:1.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='oshi-project:oshi-core:1.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.dev.jna:jna:4.4.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.dev.jna:platform:3.4.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.ibm.icu:icu4j:66.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:javabridge:1.0.22', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.sf.jopt-simple:jopt-simple:5.0.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='io.netty:netty-all:4.1.25.Final', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.google.guava:guava:21.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.commons:commons-lang3:3.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-io:commons-io:2.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-codec:commons-codec:1.10', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.jinput:jinput:2.0.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.jutils:jutils:1.0.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:brigadier:1.0.17', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:datafixerupper:4.0.26', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.google.code.gson:gson:2.8.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:authlib:2.1.28', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.commons:commons-compress:1.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.httpcomponents:httpclient:4.3.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-logging:commons-logging:1.1.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.httpcomponents:httpcore:4.3.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='it.unimi.dsi:fastutil:8.2.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.logging.log4j:log4j-api:2.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.logging.log4j:log4j-core:2.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-jemalloc:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-jemalloc:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-openal:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-openal:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-opengl:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-opengl:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-glfw:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-glfw:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-stb:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-stb:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-tinyfd:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-tinyfd:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-jemalloc:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-jemalloc:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-openal:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-openal:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-opengl:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-opengl:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-glfw:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-glfw:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-stb:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-tinyfd:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-tinyfd:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-stb:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='com.mojang:text2speech:1.11.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:text2speech:1.11.3', rules=null, natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=net.minecraft.launcher.versions.ExtractRules@77d1c534, packed='null'}, Library{name='ca.weblite:java-objc-bridge:1.0.0', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-osx}, extract=net.minecraft.launcher.versions.ExtractRules@45b04ecd, packed='null'}, Library{name='ca.weblite:java-objc-bridge:1.0.0', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}]},
+remote=PartialVersion{id='OptiFine 1.16.5', time=Wed Jan 13 10:09:17 CST 2021, release=Wed Jan 13 10:05:35 CST 2021, type=modified, source=EXTRA_VERSION_REPO, list=net.minecraft.launcher.updater.ExtraVersionList@67bb1324}, isInstalled=true, hasRemote=true, isUpToDate=false}
+[REPO][EMPTY] Attempt #1; timeout: 20000 ms; url: 
+[REPO][EMPTY] Success: Reached the repo in 407 ms.
+[Version:OptiFine 1.16.5] Resolving...
+[Version:OptiFine 1.16.5] Inherits from 1.16.5
+[REPO][EMPTY] Attempt #1; timeout: 20000 ms; url: 
+[REPO][EMPTY] Success: Reached the repo in 1217 ms.
+[Launcher] Java path: /home/ulisesr/.tlauncher/jvms/jre1.8.0_51/bin/java
+[Launcher] Checking conditions...
+[Launcher] Comparing assets...
+[AssetsManager] Checking resources...
+[AssetsManager] Reading from repository...
+[REPO][EMPTY] Attempt #1; timeout: 20000 ms; url: 
+[REPO][EMPTY] Success: Reached the repo in 2562 ms.
+[AssetsManager] Fast comparing: false
+[Launcher] finished comparing assets: 36641 ms.
+[TLauncherManager] add required libraries: OptiFine 1.16.5
+getting downloadable org.tlauncher:authlib:2.0.28.1 EXTRA_VERSION_REPO /home/ulisesr/.minecraft/libraries/org/tlauncher/authlib/2.0.28.1/authlib-2.0.28.1.jar LINUX
+getting downloadable org.tlauncher:patchy:1.1 EXTRA_VERSION_REPO /home/ulisesr/.minecraft/libraries/org/tlauncher/patchy/1.1/patchy-1.1.jar LINUX
+getting downloadable org.tlauncher:tl_skin_cape_opti_1.16.5:1.19_opti EXTRA_VERSION_REPO /home/ulisesr/.minecraft/libraries/org/tlauncher/tl_skin_cape_opti_1.16.5/1.19_opti/tl_skin_cape_opti_1.16.5-1.19_opti.jar LINUX
+getting downloadable org.tlauncher:tl_skin_cape_opti_1.16.5:1.19_opti_d EXTRA_VERSION_REPO /home/ulisesr/.minecraft/libraries/org/tlauncher/tl_skin_cape_opti_1.16.5/1.19_opti_d/tl_skin_cape_opti_1.16.5-1.19_opti_d.jar LINUX
+[VersionManager] Required for version OptiFine 1.16.5: [Downloadable{path='net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/mojang/patchy/1.1/patchy-1.1.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/mojang/patchy/1.1/patchy-1.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/ibm/icu/icu4j/66.1/icu4j-66.1.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2-natives-linux.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2-natives-linux.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-linux.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-linux.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='commons-codec/commons-codec/1.10/commons-codec-1.10.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2-natives-linux.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2-natives-linux.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='commons-io/commons-io/2.5/commons-io-2.5.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-linux.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-linux.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/google/guava/guava/21.0/guava-21.0.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/tlauncher/patchy/1.1/patchy-1.1.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/tlauncher/patchy/1.1/patchy-1.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2-natives-linux.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2-natives-linux.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2-natives-linux.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2-natives-linux.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-natives-linux.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-natives-linux.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/tlauncher/authlib/2.0.28.1/authlib-2.0.28.1.jar'; repo=MODPACK_REPO; destinations=/home/ulisesr/.minecraft/libraries/org/tlauncher/authlib/2.0.28.1/authlib-2.0.28.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/tlauncher/tl_skin_cape_1.16.5/1.19_opti/tl_skin_cape_1.16.5-1.19_opti.jar'; repo=MODPACK_REPO; destinations=/home/ulisesr/.minecraft/libraries/org/tlauncher/tl_skin_cape_opti_1.16.5/1.19_opti_d/tl_skin_cape_opti_1.16.5-1.19_opti_d.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='oshi-project/oshi-core/1.1/oshi-core-1.1.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/google/code/gson/gson/2.8.0/gson-2.8.0.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/ow2/asm/asm/6.2/asm-6.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm/6.2/asm-6.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/mojang/authlib/2.1.28/authlib-2.1.28.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/mojang/authlib/2.1.28/authlib-2.1.28.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='optifine/OptiFine/OptiFine-1.16.5_HD_U_G8_pre11/OptiFine-1.16.5_HD_U_G8_pre11.jar'; repo=MODPACK_REPO; destinations=/home/ulisesr/.minecraft/libraries/optifine/OptiFine/1.16.5_HD_U_G8_pre11/OptiFine-1.16.5_HD_U_G8_pre11.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='optifine/launchwrapper-of/2.2/launchwrapper-of-2.2.jar'; repo=MODPACK_REPO; destinations=/home/ulisesr/.minecraft/libraries/optifine/launchwrapper-of/2.2/launchwrapper-of-2.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-linux.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-linux.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar'; repo=EMPTY; destinations=/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}, Downloadable{path='org/tlauncher/tl_skin_cape_1.16.5/1.19_opti/tl_skin_cape_1.16.5-1.19_opti.jar'; repo=MODPACK_REPO; destinations=/home/ulisesr/.minecraft/libraries/org/tlauncher/tl_skin_cape_opti_1.16.5/1.19_opti/tl_skin_cape_opti_1.16.5-1.19_opti.jar,[]; force=false; fast=false; locked=false; container=org.tlauncher.tlauncher.managers.VersionSyncInfoContainer@5d50b3f0; handlers=[]; error=null;}]
+[TLauncherManager] add required libraries: OptiFine 1.16.5
+[Downloader2] Files in queue 51
+[Downloader2] Starting download 51 files...
+[D#2] >  http://files.minecraftforge.net/maven/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar 
+[D#1] >  https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar 
+[D#3] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2-natives-linux.jar 
+[D#1] >  https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1.jar 
+[D#1] >  https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar 
+[D#3] >  https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar 
+[D#2] >  https://libraries.minecraft.net/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar 
+[D#1] >  https://libraries.minecraft.net/commons-codec/commons-codec/1.10/commons-codec-1.10.jar 
+[D#3] >  https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3-natives-linux.jar 
+[D#1] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar 
+[D#3] >  https://libraries.minecraft.net/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar 
+[D#1] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2-natives-linux.jar 
+[D#3] >  https://libraries.minecraft.net/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar 
+[D#1] >  https://repo.tlauncher.org/update/downloads/libraries/org/tlauncher/patchy/1.1/patchy-1.1.jar 
+[D#1] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar 
+[D#3] >  https://libraries.minecraft.net/com/google/guava/guava/21.0/guava-21.0.jar 
+[D#1] >  https://libraries.minecraft.net/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar 
+[D#3] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2-natives-linux.jar 
+[D#1] >  https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar 
+[D#3] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar 
+[D#1] >  https://libraries.minecraft.net/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar 
+[D#3] >  https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2-natives-linux.jar 
+[D#1] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-natives-linux.jar 
+[D#3] >  https://res.tlauncher.org/b/libraries/org/tlauncher/tl_skin_cape_1.16.5/1.19_opti/tl_skin_cape_1.16.5-1.19_opti.jar 
+[D#1] >  https://libraries.minecraft.net/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar 
+[D#1] >  https://libraries.minecraft.net/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar 
+[D#1] >  https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar 
+[D#2] >  https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar 
+[D#3] >  https://libraries.minecraft.net/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar 
+[D#3] >  https://libraries.minecraft.net/oshi-project/oshi-core/1.1/oshi-core-1.1.jar 
+[D#2] >  https://libraries.minecraft.net/commons-io/commons-io/2.5/commons-io-2.5.jar 
+[D#3] >  https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar 
+[D#2] >  https://libraries.minecraft.net/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar 
+[D#3] >  https://res.tlauncher.org/b/libraries/optifine/OptiFine/1.16.5_HD_U_G8_pre11/OptiFine-1.16.5_HD_U_G8_pre11.jar 
+[D#2] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-linux.jar 
+[D#2] >  http://files.minecraftforge.net/maven/org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar 
+[D#2] >  https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar 
+[D#2] >  https://libraries.minecraft.net/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar 
+[D#2] >  https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar 
+[D#2] >  https://res.tlauncher.org/b/libraries/org/tlauncher/authlib/2.0.28.1/authlib-2.0.28.1.jar 
+[D#2] >  https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar 
+[D#2] >  http://files.minecraftforge.net/maven/org/ow2/asm/asm/6.2/asm-6.2.jar 
+[D#2] >  https://libraries.minecraft.net/com/mojang/authlib/2.1.28/authlib-2.1.28.jar 
+[D#2] >  https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar 
+[D#2] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-linux.jar 
+[D#2] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar 
+[D#3] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar 
+[D#2] >  https://res.tlauncher.org/b/libraries/org/tlauncher/tl_skin_cape_1.16.5/1.19_opti/tl_skin_cape_1.16.5-1.19_opti.jar 
+[D#1] >  https://res.tlauncher.org/b/libraries/optifine/launchwrapper-of/2.2/launchwrapper-of-2.2.jar 
+[D#1] >  https://libraries.minecraft.net/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar 
+[D#1] >  https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar 
+[VersionManager] Refreshing versions locally...
+[VersionManager] Versions has been refreshed (17 ms)
+[Launcher] Error occurred:
+org.tlauncher.tlauncher.minecraft.launcher.MinecraftLauncher$MinecraftLauncherAborted: shown skin message
+at org.tlauncher.tlauncher.minecraft.launcher.MinecraftLauncher.checkExtraConditions(MinecraftLauncher.java:686)
+at org.tlauncher.tlauncher.minecraft.launcher.MinecraftLauncher.start(MinecraftLauncher.java:227)
+at org.tlauncher.tlauncher.rmo.TLauncher.launch(TLauncher.java:514)
+at org.tlauncher.tlauncher.ui.login.LoginForm.runProcess(LoginForm.java:183)
+at org.tlauncher.tlauncher.ui.login.LoginForm.access$000(LoginForm.java:38)
+at org.tlauncher.tlauncher.ui.login.LoginForm$StartThread.iterateOnce(LoginForm.java:256)
+at org.tlauncher.util.async.LoopedThread.run(LoopedThread.java:38)
+Thread called by: org.tlauncher.util.async.ExtendedThread$ExtendedThreadCaller
+at org.tlauncher.util.async.ExtendedThread.<init>(ExtendedThread.java:17)
+at org.tlauncher.util.async.LoopedThread.<init>(LoopedThread.java:7)
+at org.tlauncher.util.async.LoopedThread.<init>(LoopedThread.java:11)
+at org.tlauncher.tlauncher.ui.login.LoginForm$StartThread.<init>(LoginForm.java:249)
+at org.tlauncher.tlauncher.ui.login.LoginForm.<init>(LoginForm.java:82)
+at org.tlauncher.tlauncher.ui.scenes.DefaultScene.<init>(DefaultScene.java:47)
+at org.tlauncher.tlauncher.ui.MainPane.<init>(MainPane.java:52)
+at org.tlauncher.tlauncher.ui.TLauncherFrame.<init>(TLauncherFrame.java:95)
+at org.tlauncher.tlauncher.rmo.TLauncher.launch(TLauncher.java:342)
+at org.tlauncher.tlauncher.rmo.TLauncher.main(TLauncher.java:208)
+
+[Launcher] Launcher exited.
+[LoginForm] Catched a wait task from this listener, waiting...
+instancefor: Account{displayName=walle214, type=TLAUNCHER, accessToken=(not null), userid=walle214, uuid=5346d7607a3d11e9bfea002590a1379b, username=walle214}
+[TlauncherAuthenticator] Staring to authenticate: Account{displayName=walle214, type=TLAUNCHER, accessToken=(not null), userid=walle214, uuid=5346d7607a3d11e9bfea002590a1379b, username=walle214}
+[TlauncherAuthenticator] hasUsername: walle214
+[TlauncherAuthenticator] hasPassword: false
+[TlauncherAuthenticator] hasAccessToken: true
+[TlauncherAuthenticator] Loggining in with token
+[TlauncherAuthenticator] Log in successful!
+[TlauncherAuthenticator] hasUUID: true
+[TlauncherAuthenticator] hasAccessToken: true
+[TlauncherAuthenticator] hasProfiles: false
+[TlauncherAuthenticator] hasProfile: false
+[TlauncherAuthenticator] hasProperties: true
+[LoginForm] Login was OK. Trying to launch now.
+[Launcher] Running under TLauncher 2.75
+[Launcher] Collecting info...
+[TLauncherManager] before clearLibrary 
+[TLauncherManager] written:  []
+[TLauncherManager] after clearLibrary 
+[Launcher] Force update: false
+[Launcher] Selected version: OptiFine 1.16.5
+[Launcher] Selected account: Account{displayName=walle214, type=TLAUNCHER, accessToken=(not null), userid=walle214, uuid=5346d7607a3d11e9bfea002590a1379b, username=walle214}
+[Launcher] Version sync info: VersionSyncInfo{id='OptiFine 1.16.5',
+local=CompleteVersion{id='OptiFine 1.16.5', time=Wed Jan 13 10:09:17 CST 2021, release=Thu Jan 14 10:05:32 CST 2021, type=modified, class=net.minecraft.launchwrapper.Launch, minimumVersion=21, assets='1.16', source=LOCAL_VERSION_REPO, list=net.minecraft.launcher.updater.ExtraVersionList@67bb1324, libraries=[Library{name='optifine:OptiFine:1.16.5_HD_U_G8_pre11', rules=null, natives=null, extract=null, packed='null'}, Library{name='optifine:launchwrapper-of:2.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:patchy:1.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='oshi-project:oshi-core:1.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.dev.jna:jna:4.4.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.dev.jna:platform:3.4.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.ibm.icu:icu4j:66.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:javabridge:1.0.22', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.sf.jopt-simple:jopt-simple:5.0.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='io.netty:netty-all:4.1.25.Final', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.google.guava:guava:21.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.commons:commons-lang3:3.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-io:commons-io:2.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-codec:commons-codec:1.10', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.jinput:jinput:2.0.5', rules=null, natives=null, extract=null, packed='null'}, Library{name='net.java.jutils:jutils:1.0.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:brigadier:1.0.17', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:datafixerupper:4.0.26', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.google.code.gson:gson:2.8.0', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:authlib:2.1.28', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.commons:commons-compress:1.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.httpcomponents:httpclient:4.3.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='commons-logging:commons-logging:1.1.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.httpcomponents:httpcore:4.3.2', rules=null, natives=null, extract=null, packed='null'}, Library{name='it.unimi.dsi:fastutil:8.2.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.logging.log4j:log4j-api:2.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.apache.logging.log4j:log4j-core:2.8.1', rules=null, natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-jemalloc:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-jemalloc:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-openal:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-openal:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-opengl:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-opengl:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-glfw:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-glfw:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-stb:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-stb:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-tinyfd:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-tinyfd:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-jemalloc:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-jemalloc:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-openal:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-openal:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-opengl:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-opengl:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-glfw:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-glfw:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-stb:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-tinyfd:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-tinyfd:3.2.1', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-macos}, extract=null, packed='null'}, Library{name='org.lwjgl:lwjgl-stb:3.2.2', rules=[Rule{action=ALLOW, os=null, features=null}, Rule{action=DISALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=null, packed='null'}, Library{name='com.mojang:text2speech:1.11.3', rules=null, natives=null, extract=null, packed='null'}, Library{name='com.mojang:text2speech:1.11.3', rules=null, natives={LINUX=natives-linux, WINDOWS=natives-windows}, extract=net.minecraft.launcher.versions.ExtractRules@4bdb8a9e, packed='null'}, Library{name='ca.weblite:java-objc-bridge:1.0.0', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives={OSX=natives-osx}, extract=net.minecraft.launcher.versions.ExtractRules@18440b32, packed='null'}, Library{name='ca.weblite:java-objc-bridge:1.0.0', rules=[Rule{action=ALLOW, os=OSRestriction{name=OSX, version='null'}, features=null}], natives=null, extract=null, packed='null'}]},
+remote=PartialVersion{id='OptiFine 1.16.5', time=Wed Jan 13 10:09:17 CST 2021, release=Wed Jan 13 10:05:35 CST 2021, type=modified, source=EXTRA_VERSION_REPO, list=net.minecraft.launcher.updater.ExtraVersionList@67bb1324}, isInstalled=true, hasRemote=true, isUpToDate=true}
+[Launcher] Java path: /home/ulisesr/.tlauncher/jvms/jre1.8.0_51/bin/java
+[Launcher] Checking conditions...
+[Launcher] Comparing assets...
+[AssetsManager] Checking resources...
+[AssetsManager] Reading indexes from file /home/ulisesr/.minecraft/assets/indexes/1.16.json
+[AssetsManager] Fast comparing: true
+[Launcher] finished comparing assets: 64 ms.
+[TLauncherManager] add required libraries: OptiFine 1.16.5
+[VersionManager] Required for version OptiFine 1.16.5: []
+[TLauncherManager] add required libraries: OptiFine 1.16.5
+[TLauncherManager] library will be replaced: com.mojang:authlib:2.1.28
+[TLauncherManager] library will be replaced: com.mojang:patchy:1.1
+[TLauncherManager] library will be added as required: net.minecraft:launchwrapper:1.12
+[TLauncherManager] library will be added as required: org.ow2.asm:asm-commons:6.2
+[TLauncherManager] library will be added as required: org.ow2.asm:asm:6.2
+[TLauncherManager] library will be added as required: org.ow2.asm:asm-tree:6.2
+[TLauncherManager] library will be added: org.tlauncher:tl_skin_cape_opti_1.16.5:1.19_opti
+[Launcher] Unpacking natives...
+[Launcher] Constructing process...
+[Launcher] Constructing classpath...
+[Launcher] Getting Minecraft arguments...
+[Launcher] Full command: /home/ulisesr/.tlauncher/jvms/jre1.8.0_51/bin/java -Djava.net.preferIPv4Stack=true -Xmn128M -Xmx9181M -Xss1M -Djava.library.path=/home/ulisesr/.minecraft/versions/OptiFine 1.16.5/natives -Dminecraft.launcher.brand=minecraft-launcher -Dminecraft.launcher.version=2.0.1003 -cp /home/ulisesr/.minecraft/libraries/org/tlauncher/tl_skin_cape_opti_1.16.5/1.19_opti/tl_skin_cape_opti_1.16.5-1.19_opti.jar:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm/6.2/asm-6.2.jar:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar:/home/ulisesr/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar:/home/ulisesr/.minecraft/libraries/optifine/OptiFine/1.16.5_HD_U_G8_pre11/OptiFine-1.16.5_HD_U_G8_pre11.jar:/home/ulisesr/.minecraft/libraries/optifine/launchwrapper-of/2.2/launchwrapper-of-2.2.jar:/home/ulisesr/.minecraft/libraries/org/tlauncher/patchy/1.1/patchy-1.1.jar:/home/ulisesr/.minecraft/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar:/home/ulisesr/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar:/home/ulisesr/.minecraft/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/home/ulisesr/.minecraft/libraries/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar:/home/ulisesr/.minecraft/libraries/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar:/home/ulisesr/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar:/home/ulisesr/.minecraft/libraries/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar:/home/ulisesr/.minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar:/home/ulisesr/.minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/ulisesr/.minecraft/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/ulisesr/.minecraft/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/ulisesr/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar:/home/ulisesr/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar:/home/ulisesr/.minecraft/libraries/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar:/home/ulisesr/.minecraft/libraries/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar:/home/ulisesr/.minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:/home/ulisesr/.minecraft/libraries/org/tlauncher/authlib/2.0.28.1/authlib-2.0.28.1.jar:/home/ulisesr/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar:/home/ulisesr/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar:/home/ulisesr/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/home/ulisesr/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/home/ulisesr/.minecraft/libraries/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar:/home/ulisesr/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar:/home/ulisesr/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar:/home/ulisesr/.minecraft/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar:/home/ulisesr/.minecraft/versions/OptiFine 1.16.5/OptiFine 1.16.5.jar -Dminecraft.applet.TargetDirectory=/home/ulisesr/.minecraft -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true net.minecraft.launchwrapper.Launch --username walle214 --version OptiFine 1.16.5 --gameDir /home/ulisesr/.minecraft --assetsDir /home/ulisesr/.minecraft/assets --assetIndex 1.16 --uuid 5346d7607a3d11e9bfea002590a1379b --accessToken null --userType mojang --versionType modified --width 925 --height 530 --tweakClass optifine.OptiFineTweaker --tweakClass org.tlauncher.tweaker.Tweaker
+[Launcher] Launching Minecraft...
+I'm hiding!
+[TLauncherManager] mods after 
+[InnerMinecraftServersImpl]  search changers of the servers
+read servers from servers.dat []
+[InnerMinecraftServersImpl]  prepare inner servers
+save servers to servers.dat
+[Launcher] Starting Minecraft OptiFine 1.16.5...
+[Launcher] Launching in: /home/ulisesr/.minecraft
+Starting garbage collector: 68 / 139 MB
+Garbage collector completed: 49 / 143 MB
+[Launcher] Processing post-launch actions. Assist launch: true
+===============================================================================================
+[07:41:55] [main/INFO]: Loading tweak class name optifine.OptiFineTweaker
+[07:41:55] [main/INFO]: Using primary tweak class name optifine.OptiFineTweaker
+[07:41:55] [main/INFO]: Loading tweak class name org.tlauncher.tweaker.Tweaker
+[main INFO] Tweaker: OptiFine detected.
+[07:41:55] [main/INFO]: Calling tweak class optifine.OptiFineTweaker
+OptiFineTweaker: acceptOptions
+OptiFineTweaker: injectIntoClassLoader
+OptiFine ClassTransformer
+OptiFine ZIP file: /home/ulisesr/.minecraft/libraries/optifine/OptiFine/1.16.5_HD_U_G8_pre11/OptiFine-1.16.5_HD_U_G8_pre11.jar
+[07:41:55] [main/INFO]: Calling tweak class org.tlauncher.tweaker.Tweaker
+Log Path: /home/ulisesr/.minecraft/./tlLoader/Tweaker.log
+[main INFO] Using Tweaker
+[main INFO] Tweaker: acceptOptions
+[main INFO] Tweaker: injectIntoClassLoader
+[TLSkinCape] Current TLSkinCape version is 1.19
+[TLSkinCape] Current Minecraft version is 1.16.5.
+[TLSkinCape] OptiFine detected.
+[main INFO] Loaded as a library.
+OptiFineTweaker: getLaunchArguments
+[main INFO] Tweaker: getLaunchArguments
+OptiFineTweaker: getLaunchTarget
+[Injection] Injection into net.minecraft.client.main.Main ended successfully with 1 injections.
+[07:41:55] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[Injection] Injection into doy ended successfully with 1 injections.
+[Injection] Injection into djz ended successfully with 1 injections.
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Field not found: World.tileEntitiesToBeRemoved
+[Injection] Injection into dzj ended successfully with 1 injections.
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.eventbus.api.Event$Result
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.hasTileEntity
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeEntity
+[07:41:57] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.CrashReportExtender
+[07:41:58] [main/INFO]: [OptiFine] (Reflector) Method not present: aeg.createOptional
+[07:42:06] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[07:42:07] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:42:07] [main/INFO]: Setting user: walle214
+[07:42:07] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.settings.KeyConflictContext
+[07:42:07] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.settings.KeyModifier
+[07:42:07] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[07:42:07] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.fml.loading.progress.EarlyProgressVisualization.handOffWindow
+[07:42:09] [main/INFO]: [OptiFine] 
+[07:42:09] [main/INFO]: [OptiFine] OptiFine_1.16.5_HD_U_G8_pre11
+[07:42:09] [main/INFO]: [OptiFine] Build: 20210324-231709
+[07:42:09] [main/INFO]: [OptiFine] OS: Linux (amd64) version 5.10.41-1-lts
+[07:42:09] [main/INFO]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[07:42:09] [main/INFO]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[07:42:09] [main/INFO]: [OptiFine] LWJGL: 3.3.0 X11 GLX EGL OSMesa clock_gettime evdev shared
+[07:42:09] [main/INFO]: [OptiFine] OpenGL: AMD STONEY (DRM 3.40.0, 5.10.41-1-lts, LLVM 11.1.0), version 4.5 (Compatibility Profile) Mesa 21.1.1, AMD
+[07:42:09] [main/INFO]: [OptiFine] OpenGL Version: 4.5.0
+[07:42:09] [main/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[07:42:09] [VersionCheck/INFO]: [OptiFine] Checking for new version
+[07:42:09] [main/INFO]: [Shaders] OpenGL Version: 4.5 (Compatibility Profile) Mesa 21.1.1
+[07:42:09] [main/INFO]: [Shaders] Vendor:  AMD
+[07:42:09] [main/INFO]: [Shaders] Renderer: AMD STONEY (DRM 3.40.0, 5.10.41-1-lts, LLVM 11.1.0)
+[07:42:09] [main/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[07:42:09] [main/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[07:42:09] [main/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[07:42:09] [main/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[07:42:09] [main/INFO]: [Shaders] Load shaders configuration.
+[07:42:09] [main/INFO]: [Shaders] Loaded shaderpack: (internal)
+[07:42:09] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[07:42:09] [main/INFO]: [OptiFine] Using legacy block aliases: flattening_ids.txt
+[07:42:09] [VersionCheck/INFO]: [OptiFine] Version found: G7
+[07:42:10] [main/INFO]: [OptiFine] Legacy block aliases: 2751
+[07:42:10] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
+[07:42:10] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
+[Injection] Injection into dvd ended successfully with 1 injections.
+[Injection] Injection into ehu ended successfully with 1 injections.
+[07:42:11] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer
+[07:42:12] [main/WARN]: ERROR : Couldn't load Narrator library : Unable to load library 'fliteWrapper': Native library (linux-x86-64/libfliteWrapper.so) not found in resource path ([file:/home/ulisesr/.minecraft/libraries/org/tlauncher/tl_skin_cape_opti_1.16.5/1.19_opti/tl_skin_cape_opti_1.16.5-1.19_opti.jar, file:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar, file:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm/6.2/asm-6.2.jar, file:/home/ulisesr/.minecraft/libraries/org/ow2/asm/asm-commons/6.2/asm-commons-6.2.jar, file:/home/ulisesr/.minecraft/libraries/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar, file:/home/ulisesr/.minecraft/libraries/optifine/OptiFine/1.16.5_HD_U_G8_pre11/OptiFine-1.16.5_HD_U_G8_pre11.jar, file:/home/ulisesr/.minecraft/libraries/optifine/launchwrapper-of/2.2/launchwrapper-of-2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/tlauncher/patchy/1.1/patchy-1.1.jar, file:/home/ulisesr/.minecraft/libraries/oshi-project/oshi-core/1.1/oshi-core-1.1.jar, file:/home/ulisesr/.minecraft/libraries/net/java/dev/jna/jna/4.4.0/jna-4.4.0.jar, file:/home/ulisesr/.minecraft/libraries/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar, file:/home/ulisesr/.minecraft/libraries/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar, file:/home/ulisesr/.minecraft/libraries/com/mojang/javabridge/1.0.22/javabridge-1.0.22.jar, file:/home/ulisesr/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar, file:/home/ulisesr/.minecraft/libraries/io/netty/netty-all/4.1.25.Final/netty-all-4.1.25.Final.jar, file:/home/ulisesr/.minecraft/libraries/com/google/guava/guava/21.0/guava-21.0.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar, file:/home/ulisesr/.minecraft/libraries/commons-io/commons-io/2.5/commons-io-2.5.jar, file:/home/ulisesr/.minecraft/libraries/commons-codec/commons-codec/1.10/commons-codec-1.10.jar, file:/home/ulisesr/.minecraft/libraries/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar, file:/home/ulisesr/.minecraft/libraries/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar, file:/home/ulisesr/.minecraft/libraries/com/mojang/brigadier/1.0.17/brigadier-1.0.17.jar, file:/home/ulisesr/.minecraft/libraries/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar, file:/home/ulisesr/.minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar, file:/home/ulisesr/.minecraft/libraries/org/tlauncher/authlib/2.0.28.1/authlib-2.0.28.1.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/httpcomponents/httpclient/4.3.3/httpclient-4.3.3.jar, file:/home/ulisesr/.minecraft/libraries/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar, file:/home/ulisesr/.minecraft/libraries/it/unimi/dsi/fastutil/8.2.1/fastutil-8.2.1.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1.jar, file:/home/ulisesr/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar, file:/home/ulisesr/.minecraft/libraries/com/mojang/text2speech/1.11.3/text2speech-1.11.3.jar, file:/home/ulisesr/.minecraft/versions/OptiFine%201.16.5/OptiFine%201.16.5.jar])
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.gui.screen.ModListScreen
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.gui.NotificationModUpdateScreen
+[07:42:13] [main/INFO]: Reloading ResourceManager: Default
+[07:42:13] [main/INFO]: [OptiFine] *** Reloading textures ***
+[07:42:13] [main/INFO]: [OptiFine] Resource packs: Default
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: eab.canRenderInLayer
+[07:42:13] [main/INFO]: [OptiFine] *** Reflector Forge ***
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.BrandingControl
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.capabilities.ICapabilityProvider
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.capabilities.CapabilityProvider
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.ClientModLoader
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkDataEvent$Save
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkEvent$Load
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkEvent$Unload
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.ClientHooks
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.EntityLeaveWorldEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$RenderFogEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.EntityJoinWorldEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.eventbus.api.Event.isCanceled
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.eventbus.api.Event.getResult
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.eventbus.api.IEventBus
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeBlock
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: eaw.getTexture
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.addDestroyEffects
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.addHitEffects
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getLightValue
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getSoundType
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.getStateAtViewpoint
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.isAir
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: net.minecraftforge.common.extensions.IForgeBlockState.shouldDisplayFluidOverlay
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeFluid
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fluids.FluidAttributes
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: aqe.getTags
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: cuw.getTags
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfig
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfig$Client
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfigSpec
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeConfigSpec$ConfigValue
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: cfw.getWorldForge
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeItem
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeItemStack
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.ForgeI18n
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: djw.setKeyConflictContext
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: djw.setKeyModifierAndCode
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: djw.getKeyModifier
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeEffectInstance
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.registries.ForgeRegistryEntry
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: eab.canRenderInLayer
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Constructor not present: aak, params: class aal, int, class java.lang.Object, boolean
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: aak.isForceTicks
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.extensions.IForgeTileEntity
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: dzv.getCloudRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: dzv.getSkyRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: dzv.getWeatherParticleRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Method not present: dzv.getWeatherRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoaderRegistry
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.entity.PartEntity
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.entity.PlaySoundAtEntityEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderGameOverlayEvent$BossInfo
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderNameplateEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.ScreenshotEvent
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.server.ServerLifecycleHooks
+[07:42:13] [main/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
+[07:42:13] [main/INFO]: [OptiFine] *** Reflector Vanilla ***
+[07:42:15] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[07:42:29] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] Multipass connected textures: false
+[07:42:30] [Worker-Main-2/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[07:42:34] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 4
+[07:42:34] [Worker-Main-3/INFO]: [OptiFine] Multitexture: false
+[07:42:34] [Worker-Main-4/INFO]: [OptiFine] Multitexture: false
+[07:42:34] [Worker-Main-5/INFO]: [OptiFine] Multitexture: false
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:41] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Multitexture: false
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Sprite size: 64
+[07:42:42] [Worker-Main-2/INFO]: [OptiFine] Mipmap levels: 6
+[07:42:42] [main/INFO]: OpenAL initialized.
+[07:42:42] [main/INFO]: Sound engine started
+[07:42:43] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[07:42:43] [main/INFO]: [Shaders] Allocate texture map normal: 1024x512, mipmaps: 4
+[07:42:43] [main/INFO]: [Shaders] Allocate texture map specular: 1024x512, mipmaps: 4
+[07:42:43] [main/INFO]: [OptiFine] Animated sprites: 43
+[07:42:44] [main/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 256x128, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 256x128, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 512x512, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 512x512, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 512x256, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 512x256, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:44] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map normal: 512x256, mipmaps: 4
+[07:42:44] [main/INFO]: [Shaders] Allocate texture map specular: 512x256, mipmaps: 4
+[07:42:44] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:45] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 0
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 0
+[07:42:45] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:45] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map normal: 256x256, mipmaps: 0
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map specular: 256x256, mipmaps: 0
+[07:42:45] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:45] [main/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map normal: 128x128, mipmaps: 0
+[07:42:45] [main/INFO]: [Shaders] Allocate texture map specular: 128x128, mipmaps: 0
+[07:42:45] [main/INFO]: [OptiFine] Animated sprites: 0
+[07:42:45] [main/INFO]: [OptiFine] *** Reloading custom textures ***
+[07:42:48] [main/INFO]: [OptiFine] Disable Forge light pipeline
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:43:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:43:05] [main/INFO]: Reloading ResourceManager: Default
+[07:43:07] [main/INFO]: Loaded 7 recipes
+[07:43:08] [main/INFO]: Loaded 927 advancements
+[07:43:11] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:43:11] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[07:43:11] [Server thread/INFO]: Generating keypair
+[07:43:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:18] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:19] [main/INFO]: Preparando zona de aparición: 0 %
+[07:43:19] [main/INFO]: Preparando zona de aparición: 30 %
+[07:43:19] [main/INFO]: Preparando zona de aparición: 78 %
+[07:43:21] [main/INFO]: Time elapsed: 8493 ms
+[07:43:23] [Server thread/INFO]: Changing view distance to 15, from 10
+[07:43:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[07:43:28] [Server thread/INFO]: walle214[local:E:3b226317] logged in with entity id 166 at (407.47343809768824, 56.0, 125.30000001192093)
+[07:43:28] [Server thread/INFO]: walle214 se ha unido a la partida
+[07:43:30] [Server thread/INFO]: Saving and pausing game...
+[07:43:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:overworld
+[07:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_nether
+[07:43:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_end
+[07:43:32] [main/INFO]: [Shaders] usedColorBuffers: 4
+[07:43:32] [main/INFO]: [Shaders] usedDepthBuffers: 1
+[07:43:32] [main/INFO]: [Shaders] usedShadowColorBuffers: 0
+[07:43:32] [main/INFO]: [Shaders] usedShadowDepthBuffers: 0
+[07:43:32] [main/INFO]: [Shaders] usedColorAttachs: 4
+[07:43:32] [main/INFO]: [Shaders] usedDrawBuffers: 1
+[07:43:32] [main/INFO]: [Shaders] bindImageTextures: false
+[07:43:32] [main/INFO]: [Shaders] Framebuffer created: dfb
+[07:43:32] [main/INFO]: [Shaders] Reset model renderers
+[07:43:32] [main/INFO]: [Shaders] Reset world renderers
+[07:43:34] [main/INFO]: Loaded 69 advancements
+[07:43:37] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[07:43:39] [Server thread/INFO]: Saving and pausing game...
+[07:43:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:overworld
+[07:43:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_nether
+[07:43:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_end
+[07:43:40] [Server thread/INFO]: walle214 lost connection: Desconectado
+[07:43:40] [Server thread/INFO]: walle214 ha abandonado la partida
+[07:43:40] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[07:43:41] [Server thread/INFO]: Stopping server
+[07:43:41] [Server thread/INFO]: Saving players
+[07:43:41] [Server thread/INFO]: Saving worlds
+[07:43:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:overworld
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (atarashi sekai): All chunks are saved
+[07:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_nether
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:43:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[atarashi sekai]'/minecraft:the_end
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (atarashi sekai): All chunks are saved
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:43:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:43:48] [main/INFO]: Attempt 1...
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07:44:05] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07:44:05] [main/INFO]: Reloading ResourceManager: Default
+[07:44:07] [main/INFO]: Loaded 7 recipes
+[07:44:07] [main/INFO]: Loaded 927 advancements
+[07:44:08] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:44:08] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[07:44:08] [Server thread/INFO]: Generating keypair
+[07:44:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:44:37] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:37] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:38] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:38] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:39] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:40] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:40] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:40] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:41] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:42] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:42] [main/INFO]: Preparando zona de aparición: 0 %
+[07:44:42] [main/INFO]: Preparando zona de aparición: 1 %
+[07:44:43] [main/INFO]: Preparando zona de aparición: 1 %
+[07:44:43] [main/INFO]: Preparando zona de aparición: 1 %
+[07:44:44] [main/INFO]: Preparando zona de aparición: 1 %
+[07:44:44] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:45] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:45] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:46] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:46] [main/INFO]: Preparando zona de aparición: 2 %
+[07:44:47] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:47] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:48] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:48] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:49] [main/INFO]: Preparando zona de aparición: 3 %
+[07:44:49] [main/INFO]: Preparando zona de aparición: 4 %
+[07:44:50] [main/INFO]: Preparando zona de aparición: 4 %
+[07:44:50] [main/INFO]: Preparando zona de aparición: 4 %
+[07:44:51] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:51] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:52] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:52] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:53] [main/INFO]: Preparando zona de aparición: 5 %
+[07:44:53] [main/INFO]: Preparando zona de aparición: 6 %
+[07:44:54] [main/INFO]: Preparando zona de aparición: 6 %
+[07:44:54] [main/INFO]: Preparando zona de aparición: 7 %
+[07:44:55] [main/INFO]: Preparando zona de aparición: 7 %
+[07:44:55] [main/INFO]: Preparando zona de aparición: 8 %
+[07:44:56] [main/INFO]: Preparando zona de aparición: 8 %
+[07:44:56] [main/INFO]: Preparando zona de aparición: 9 %
+[07:44:57] [main/INFO]: Preparando zona de aparición: 9 %
+[07:44:57] [main/INFO]: Preparando zona de aparición: 9 %
+[07:44:58] [main/INFO]: Preparando zona de aparición: 9 %
+[07:44:58] [main/INFO]: Preparando zona de aparición: 10 %
+[07:44:59] [main/INFO]: Preparando zona de aparición: 10 %
+[07:44:59] [main/INFO]: Preparando zona de aparición: 10 %
+[07:45:00] [main/INFO]: Preparando zona de aparición: 10 %
+[07:45:00] [main/INFO]: Preparando zona de aparición: 11 %
+[07:45:01] [main/INFO]: Preparando zona de aparición: 11 %
+[07:45:01] [main/INFO]: Preparando zona de aparición: 12 %
+[07:45:02] [main/INFO]: Preparando zona de aparición: 12 %
+[07:45:02] [main/INFO]: Preparando zona de aparición: 12 %
+[07:45:03] [main/INFO]: Preparando zona de aparición: 13 %
+[07:45:03] [main/INFO]: Preparando zona de aparición: 13 %
+[07:45:04] [main/INFO]: Preparando zona de aparición: 14 %
+[07:45:04] [main/INFO]: Preparando zona de aparición: 14 %
+[07:45:05] [main/INFO]: Preparando zona de aparición: 14 %
+[07:45:05] [main/INFO]: Preparando zona de aparición: 15 %
+[07:45:06] [main/INFO]: Preparando zona de aparición: 15 %
+[07:45:06] [main/INFO]: Preparando zona de aparición: 15 %
+[07:45:07] [main/INFO]: Preparando zona de aparición: 16 %
+[07:45:07] [main/INFO]: Preparando zona de aparición: 16 %
+[07:45:08] [main/INFO]: Preparando zona de aparición: 16 %
+[07:45:08] [main/INFO]: Preparando zona de aparición: 16 %
+[07:45:09] [main/INFO]: Preparando zona de aparición: 17 %
+[07:45:09] [main/INFO]: Preparando zona de aparición: 17 %
+[07:45:10] [main/INFO]: Preparando zona de aparición: 17 %
+[07:45:10] [main/INFO]: Preparando zona de aparición: 18 %
+[07:45:11] [main/INFO]: Preparando zona de aparición: 18 %
+[07:45:11] [main/INFO]: Preparando zona de aparición: 19 %
+[07:45:12] [main/INFO]: Preparando zona de aparición: 20 %
+[07:45:12] [main/INFO]: Preparando zona de aparición: 20 %
+[07:45:13] [main/INFO]: Preparando zona de aparición: 20 %
+[07:45:13] [main/INFO]: Preparando zona de aparición: 21 %
+[07:45:14] [main/INFO]: Preparando zona de aparición: 22 %
+[07:45:14] [main/INFO]: Preparando zona de aparición: 22 %
+[07:45:15] [main/INFO]: Preparando zona de aparición: 22 %
+[07:45:15] [main/INFO]: Preparando zona de aparición: 22 %
+[07:45:16] [main/INFO]: Preparando zona de aparición: 23 %
+[07:45:16] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:17] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:18] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:18] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:18] [main/INFO]: Preparando zona de aparición: 24 %
+[07:45:19] [main/INFO]: Preparando zona de aparición: 25 %
+[07:45:19] [main/INFO]: Preparando zona de aparición: 25 %
+[07:45:20] [main/INFO]: Preparando zona de aparición: 26 %
+[07:45:20] [main/INFO]: Preparando zona de aparición: 26 %
+[07:45:21] [main/INFO]: Preparando zona de aparición: 26 %
+[07:45:21] [main/INFO]: Preparando zona de aparición: 27 %
+[07:45:22] [main/INFO]: Preparando zona de aparición: 28 %
+[07:45:22] [main/INFO]: Preparando zona de aparición: 28 %
+[07:45:23] [main/INFO]: Preparando zona de aparición: 30 %
+[07:45:23] [main/INFO]: Preparando zona de aparición: 30 %
+[07:45:24] [main/INFO]: Preparando zona de aparición: 31 %
+[07:45:24] [main/INFO]: Preparando zona de aparición: 31 %
+[07:45:25] [main/INFO]: Preparando zona de aparición: 31 %
+[07:45:25] [main/INFO]: Preparando zona de aparición: 32 %
+[07:45:26] [main/INFO]: Preparando zona de aparición: 32 %
+[07:45:26] [main/INFO]: Preparando zona de aparición: 32 %
+[07:45:27] [main/INFO]: Preparando zona de aparición: 33 %
+[07:45:27] [main/INFO]: Preparando zona de aparición: 33 %
+[07:45:28] [main/INFO]: Preparando zona de aparición: 34 %
+[07:45:28] [main/INFO]: Preparando zona de aparición: 34 %
+[07:45:29] [main/INFO]: Preparando zona de aparición: 34 %
+[07:45:29] [main/INFO]: Preparando zona de aparición: 35 %
+[07:45:30] [main/INFO]: Preparando zona de aparición: 35 %
+[07:45:30] [main/INFO]: Preparando zona de aparición: 36 %
+[07:45:31] [main/INFO]: Preparando zona de aparición: 37 %
+[07:45:31] [main/INFO]: Preparando zona de aparición: 37 %
+[07:45:32] [main/INFO]: Preparando zona de aparición: 37 %
+[07:45:33] [main/INFO]: Preparando zona de aparición: 38 %
+[07:45:33] [main/INFO]: Preparando zona de aparición: 39 %
+[07:45:33] [main/INFO]: Preparando zona de aparición: 39 %
+[07:45:34] [main/INFO]: Preparando zona de aparición: 40 %
+[07:45:34] [main/INFO]: Preparando zona de aparición: 41 %
+[07:45:35] [main/INFO]: Preparando zona de aparición: 41 %
+[07:45:35] [main/INFO]: Preparando zona de aparición: 41 %
+[07:45:36] [main/INFO]: Preparando zona de aparición: 42 %
+[07:45:36] [main/INFO]: Preparando zona de aparición: 42 %
+[07:45:37] [main/INFO]: Preparando zona de aparición: 42 %
+[07:45:37] [main/INFO]: Preparando zona de aparición: 42 %
+[07:45:38] [main/INFO]: Preparando zona de aparición: 43 %
+[07:45:38] [main/INFO]: Preparando zona de aparición: 44 %
+[07:45:39] [main/INFO]: Preparando zona de aparición: 45 %
+[07:45:39] [main/INFO]: Preparando zona de aparición: 45 %
+[07:45:40] [main/INFO]: Preparando zona de aparición: 46 %
+[07:45:40] [main/INFO]: Preparando zona de aparición: 46 %
+[07:45:41] [main/INFO]: Preparando zona de aparición: 47 %
+[07:45:41] [main/INFO]: Preparando zona de aparición: 48 %
+[07:45:42] [main/INFO]: Preparando zona de aparición: 49 %
+[07:45:42] [main/INFO]: Preparando zona de aparición: 49 %
+[07:45:43] [main/INFO]: Preparando zona de aparición: 50 %
+[07:45:43] [main/INFO]: Preparando zona de aparición: 51 %
+[07:45:44] [main/INFO]: Preparando zona de aparición: 52 %
+[07:45:44] [main/INFO]: Preparando zona de aparición: 53 %
+[07:45:45] [main/INFO]: Preparando zona de aparición: 54 %
+[07:45:45] [main/INFO]: Preparando zona de aparición: 54 %
+[07:45:46] [main/INFO]: Preparando zona de aparición: 55 %
+[07:45:46] [main/INFO]: Preparando zona de aparición: 55 %
+[07:45:47] [main/INFO]: Preparando zona de aparición: 56 %
+[07:45:47] [main/INFO]: Preparando zona de aparición: 56 %
+[07:45:48] [main/INFO]: Preparando zona de aparición: 57 %
+[07:45:48] [main/INFO]: Preparando zona de aparición: 58 %
+[07:45:49] [main/INFO]: Preparando zona de aparición: 58 %
+[07:45:49] [main/INFO]: Preparando zona de aparición: 59 %
+[07:45:50] [main/INFO]: Preparando zona de aparición: 60 %
+[07:45:50] [main/INFO]: Preparando zona de aparición: 61 %
+[07:45:51] [main/INFO]: Preparando zona de aparición: 61 %
+[07:45:51] [main/INFO]: Preparando zona de aparición: 62 %
+[07:45:52] [main/INFO]: Preparando zona de aparición: 62 %
+[07:45:52] [main/INFO]: Preparando zona de aparición: 63 %
+[07:45:53] [main/INFO]: Preparando zona de aparición: 64 %
+[07:45:53] [main/INFO]: Preparando zona de aparición: 65 %
+[07:45:54] [main/INFO]: Preparando zona de aparición: 65 %
+[07:45:54] [main/INFO]: Preparando zona de aparición: 66 %
+[07:45:55] [main/INFO]: Preparando zona de aparición: 67 %
+[07:45:55] [main/INFO]: Preparando zona de aparición: 68 %
+[07:45:56] [main/INFO]: Preparando zona de aparición: 68 %
+[07:45:56] [main/INFO]: Preparando zona de aparición: 69 %
+[07:45:57] [main/INFO]: Preparando zona de aparición: 69 %
+[07:45:57] [main/INFO]: Preparando zona de aparición: 70 %
+[07:45:58] [main/INFO]: Preparando zona de aparición: 71 %
+[07:45:58] [main/INFO]: Preparando zona de aparición: 71 %
+[07:45:59] [main/INFO]: Preparando zona de aparición: 71 %
+[07:45:59] [main/INFO]: Preparando zona de aparición: 72 %
+[07:46:00] [main/INFO]: Preparando zona de aparición: 72 %
+[07:46:00] [main/INFO]: Preparando zona de aparición: 73 %
+[07:46:01] [main/INFO]: Preparando zona de aparición: 74 %
+[07:46:01] [main/INFO]: Preparando zona de aparición: 75 %
+[07:46:02] [main/INFO]: Preparando zona de aparición: 75 %
+[07:46:02] [main/INFO]: Preparando zona de aparición: 77 %
+[07:46:03] [main/INFO]: Preparando zona de aparición: 78 %
+[07:46:03] [main/INFO]: Preparando zona de aparición: 78 %
+[07:46:04] [main/INFO]: Preparando zona de aparición: 79 %
+[07:46:04] [main/INFO]: Preparando zona de aparición: 80 %
+[07:46:05] [main/INFO]: Preparando zona de aparición: 80 %
+[07:46:05] [main/INFO]: Preparando zona de aparición: 80 %
+[07:46:06] [main/INFO]: Preparando zona de aparición: 82 %
+[07:46:06] [main/INFO]: Preparando zona de aparición: 83 %
+[07:46:07] [main/INFO]: Preparando zona de aparición: 83 %
+[07:46:07] [main/INFO]: Preparando zona de aparición: 84 %
+[07:46:08] [main/INFO]: Preparando zona de aparición: 85 %
+[07:46:08] [main/INFO]: Preparando zona de aparición: 85 %
+[07:46:09] [main/INFO]: Preparando zona de aparición: 86 %
+[07:46:09] [main/INFO]: Preparando zona de aparición: 86 %
+[07:46:10] [main/INFO]: Preparando zona de aparición: 87 %
+[07:46:10] [main/INFO]: Preparando zona de aparición: 88 %
+[07:46:11] [main/INFO]: Preparando zona de aparición: 89 %
+[07:46:11] [main/INFO]: Preparando zona de aparición: 89 %
+[07:46:12] [main/INFO]: Preparando zona de aparición: 90 %
+[07:46:12] [main/INFO]: Preparando zona de aparición: 91 %
+[07:46:13] [main/INFO]: Preparando zona de aparición: 92 %
+[07:46:13] [main/INFO]: Preparando zona de aparición: 92 %
+[07:46:14] [main/INFO]: Preparando zona de aparición: 94 %
+[07:46:14] [main/INFO]: Preparando zona de aparición: 94 %
+[07:46:15] [main/INFO]: Preparando zona de aparición: 95 %
+[07:46:15] [main/INFO]: Preparando zona de aparición: 95 %
+[07:46:16] [main/INFO]: Preparando zona de aparición: 96 %
+[07:46:16] [main/INFO]: Preparando zona de aparición: 96 %
+[07:46:17] [main/INFO]: Preparando zona de aparición: 97 %
+[07:46:17] [main/INFO]: Preparando zona de aparición: 98 %
+[07:46:18] [main/INFO]: Preparando zona de aparición: 98 %
+[07:46:18] [main/INFO]: Preparando zona de aparición: 99 %
+[07:46:19] [main/INFO]: Time elapsed: 101959 ms
+[07:46:20] [Server thread/INFO]: Changing view distance to 15, from 10
+[07:46:20] [Server thread/INFO]: walle214[local:E:36dfd11e] logged in with entity id 535 at (-59.5, 77.0, -263.5)
+[07:46:20] [Server thread/INFO]: walle214 se ha unido a la partida
+[07:46:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2239ms or 44 ticks behind
+[07:46:22] [Server thread/INFO]: Saving and pausing game...
+[07:46:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:overworld
+[07:46:23] [main/INFO]: Loaded 0 advancements
+[07:46:24] [main/INFO]: calculated cape performance:TEXTURE_272, middle time: 3.1666666666666665
+[07:46:25] [main/INFO]: textures 'elitra_test_272' was added, skin: false,cape: true, max waiting: 20 ,during : 268784 
+[07:46:25] [main/INFO]: can use texture size:TEXTURE_272, middle time: 7.4
+[07:46:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_nether
+[07:46:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_end
+[07:46:40] [Server thread/INFO]: Saving and pausing game...
+[07:46:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:overworld
+[07:46:41] [main/INFO]: Stopping!
+[07:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_nether
+[07:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_end
+[07:46:43] [Server thread/INFO]: walle214 lost connection: Desconectado
+[07:46:43] [Server thread/INFO]: walle214 ha abandonado la partida
+[07:46:43] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[07:46:43] [Server thread/INFO]: Stopping server
+[07:46:43] [Server thread/INFO]: Saving players
+[07:46:43] [Server thread/INFO]: Saving worlds
+[07:46:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:overworld
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (pitote): All chunks are saved
+[07:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_nether
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[pitote]'/minecraft:the_end
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (pitote): All chunks are saved
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+Here I am!
+[VersionManager] Refreshing versions locally...
+[VersionManager] Versions has been refreshed (24 ms)
+[Launcher] Launcher exited.
+[Launcher] Minecraft closed with exit code: 0
+Good bye!
+[TLauncherManager] before clearLibrary 
+[TLauncherManager] written:  []
+[TLauncherManager] after clearLibrary 
+flush now

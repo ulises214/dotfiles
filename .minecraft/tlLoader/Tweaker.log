@@ -1,0 +1,5 @@
+[2021-06-04 07:41:55] [main INFO] Using Tweaker
+[2021-06-04 07:41:55] [main INFO] Tweaker: acceptOptions
+[2021-06-04 07:41:55] [main INFO] Tweaker: injectIntoClassLoader
+[2021-06-04 07:41:55] [main INFO] Loaded as a library.
+[2021-06-04 07:41:55] [main INFO] Tweaker: getLaunchArguments
