@@ -3,7 +3,7 @@
 bspc rule -a Yad state=floating
 bspc rule -a kitty desktop='^1' follow=on
 bspc rule -a Brave-browser desktop='^2' follow=on
-bspc rule -a Code desktop='^3' follow=on
+bspc rule -a Code desktop='^10' follow=on
 bspc rule -a VSCodium desktop='^3' follow=on
 bspc rule -a Thunar desktop='^4' follow=on
 bspc rule -a Spotify desktop='^6' follow=on

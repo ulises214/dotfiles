@@ -401,7 +401,8 @@ format-prefix-foreground = #ffffff
 format-background = ${colors.background}
 format-foreground = ${colors.foreground}
 
-label = %date% %time%
+#label = %date% %time%
+label = %time%
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 [module/shutdown]
 type = custom/text
