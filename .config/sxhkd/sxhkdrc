@@ -276,6 +276,8 @@ XF86Audio{Prev,Play,Next}
     playerctl {previous,play-pause,next}
 super + {F9,F10,F11}
     playerctl {previous,play-pause,next}
+super + shift + {F9,F10,F11}
+    spt pb -{p,t,n}
 
 # Night mode
 super + n

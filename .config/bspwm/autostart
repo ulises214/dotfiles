@@ -1,7 +1,7 @@
 #!/bin/bash
 cp $WALLPAPERS/minimalist/minimalist14.jpg $HOME/.config/GIMP/2.10/splashes/
 backlight_control 100
-blueman-applet &
+#blueman-applet &
 compton &
 megasync &
 nitrogen --restore &
