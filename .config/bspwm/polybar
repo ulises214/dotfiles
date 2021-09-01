@@ -5,4 +5,4 @@ function startPolybar(){
         MONITOR=$m polybar --reload example &
     done
 }
-(sleep 2; startPolybar) &
+startPolybar &
