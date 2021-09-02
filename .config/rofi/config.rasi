@@ -5,10 +5,10 @@
  */
 
 configuration {
-	display-drun: "";
-	display-run: "";
-	display-window: "";
-	display-ssh: "~#";
+	display-drun: "🔍";
+	display-run: "ツ";
+	display-window: "🗗";
+	display-ssh: "🐱";
 	show-icons: true;
 	sidebar-mode: false;
 	font: "Source Code Pro 15";
@@ -16,7 +16,7 @@ configuration {
 
 * {
 	text-color: @foreground;
-	active-background: rgb(170, 70, 104);
+	active-background: #63022f;
 	active-foreground: @foreground;
 	normal-background: @background;
 	normal-foreground: @foreground;
@@ -28,15 +28,15 @@ configuration {
 	alternate-normal-foreground: @foreground;
 	alternate-urgent-background: @background;
 	alternate-urgent-foreground: @foreground;
-	selected-active-background: #9E2A5E;
-	selected-active-foreground: @foreground;
-	selected-normal-background: rgb(170, 70, 104);
-	selected-normal-foreground: #0c0816;
+	selected-active-background: #63022f;
+	selected-active-foreground: #fff;
+	selected-normal-background: #FA5AA4;
+	selected-normal-foreground: @background-color;
 	selected-urgent-background: #9D596B;
 	selected-urgent-foreground: @foreground;
-	background-color: #0c0816;
-	background: #D03C6E30;
-	foreground: #8fc5c6;
+	background-color: #0B1015;
+	background: #282E3A;
+	foreground: #63C5EA;
 	spacing: 0;
 }
 
@@ -48,7 +48,7 @@ window {
 	orientation: vertical;
 	children: [mainbox];
 	border: 2px 2px 2px 0px;
-	border-color: @active-background;
+	border-color: @foreground;
 	hide-scrollbar: true;
 }
 
@@ -58,23 +58,20 @@ mainbox {
 }
 
 
-
 listview {
 	spacing: 0.6em;
-	dynamic: false;
+	dynamic: true;
 	cycle: true;
-	padding: 0px 5px 0px 5px;
+	padding:5px;
 }
 
 inputbar {
-	border-radius: 50%;
+	border-radius: 100%;
 	padding: 5px;
-	border-spacing: 5px 0 0 0;
 	border: 1px;
-	spacing: 10px;
-	margin: 5px 0 10px;
+	spacing: 5px;
+	margin: 10px;
 	border-color: @foreground;
-
 }
 
 entry{
@@ -83,12 +80,10 @@ entry{
 
 
 prompt{
-	padding: 5px;
+	padding: 5px 10px;
 	background-color: @foreground;
 	text-color: @background-color;
-	border: 1px;
-	border-radius: 50%;
-
+	border-radius: 100%;
 }
 
 
