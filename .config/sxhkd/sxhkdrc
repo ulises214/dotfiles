@@ -53,7 +53,7 @@ super + alt + c
 
 # browser
 super + shift + w
-    microsoft-edge-beta
+    firefox
 super + ctrl + w
     microsoft-edge-beta --inprivate
 super + shift + p
@@ -90,8 +90,8 @@ super + Return
 super + w
     $HOME/.config/rofi/rofi-window-swith.sh
 # theme swap
-super + alt + t
-    ~/.config/polybar/scripts/theme-swap.sh
+#super + alt + t
+#    ~/.config/polybar/scripts/theme-swap.sh
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -281,9 +281,7 @@ super + shift + {F9,F10,F11}
 
 # Night mode
 super + n
-    redshift -O 4000
+    redshift -O 5000
 super + shift + n
     redshift -x
-# Player
-super + p
-    ~/.config/rofi/scripts/music.sh
+

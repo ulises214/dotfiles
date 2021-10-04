@@ -78,4 +78,4 @@ source ~/.custom_zshrc/.zshrc-functions
 source ~/.custom_zshrc/.variables
 source ~/.custom_zshrc/.paths
 source ~/.custom_zshrc/.aliases
-echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
+#source /usr/share/nvm/init-nvm.sh

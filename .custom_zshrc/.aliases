@@ -5,6 +5,9 @@ alias mv='mv -v'
 alias rm='rm -v'
 alias v='vim'
 alias vim='nvim'
+alias ls='lsd'
+alias la='lsd -lAh'
+alias ll='lsd -lh'
 # Shortcuts
 alias q='exit'
 alias _s='sudo systemctl'
@@ -25,4 +28,4 @@ alias color='colorpicker --short --one-shot | perl -pe 'chomp' | xclip -sel clip
 alias matrix='unimatrix -s 96'
 alias packages='expac -s "%-45n %m" -H M | sort -rhk 2 | nvim' #num of installed packages PACMAN
 alias flutter='fvm flutter'
-
+export CHROME_EXECUTABLE="microsoft-edge-beta"

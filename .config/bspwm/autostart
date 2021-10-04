@@ -8,7 +8,7 @@ nitrogen --restore &
 nm-applet &
 numlockx
 udiskie -t &
-
+ulauncher &
 
 
 
