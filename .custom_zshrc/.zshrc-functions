@@ -46,3 +46,17 @@ flutterHotReload2(){
             entr -d -p kill -USR1 $(cat /tmp/flutter2.pid)
     done
 }
+ccode(){
+  to=$1
+  if [ -z "$to" ]
+  then
+    echo "Must provide a path"
+    return 1
+  fi
+  if [ ! -d "$to" ]
+  then
+    echo "Path not exits"
+    return 1
+  fi
+  cd "$1" && code "$1"
+}
