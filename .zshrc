@@ -53,17 +53,17 @@ bindkey "^[k" up-line-or-history
 bindkey '^ ' autosuggest-accept
 bindkey '^H' autosuggest-clear
 
-if [ -d $HOME/.oh-my-zsh/additional ];
-then
+#if [ -d $HOME/.oh-my-zsh/additional ];
+#then
     
     # autosuggestions_colorscheme
-    autosuggestions_colorscheme=$HOME/.oh-my-zsh/additional/plugins/auto-suggestions/auto-suggestions.colorscheme.conf
-    [ -f $autosuggestions_colorscheme ] && source $autosuggestions_colorscheme
+#    autosuggestions_colorscheme=$HOME/.oh-my-zsh/additional/plugins/auto-suggestions/auto-suggestions.colorscheme.conf
+#    [ -f $autosuggestions_colorscheme ] && source $autosuggestions_colorscheme
     
     # prompt
-    prompt_config=$HOME/.oh-my-zsh/additional/prompt.conf
-    [ -f $prompt_config ] && source $prompt_config
-fi
+    #prompt_config=$HOME/.oh-my-zsh/additional/prompt.conf
+    #[ -f $prompt_config ] && source $prompt_config
+#fi
 
 
 
