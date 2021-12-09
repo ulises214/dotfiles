@@ -58,5 +58,5 @@ ccode(){
     echo "Path not exits"
     return 1
   fi
-  cd "$1" && code "$1"
+  cd "$1" && code .
 }

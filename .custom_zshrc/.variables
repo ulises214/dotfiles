@@ -2,4 +2,5 @@
 export EDITOR='nvim'
 #export BROWSER='brave'
 export WALLPAPERS="$HOME/.wallpapers"
+export REMOVE_BG_API_KEY=bcZAVm1XpZGk4aTz89kFag1o
 #export CHROME_EXECUTABLE='brave'

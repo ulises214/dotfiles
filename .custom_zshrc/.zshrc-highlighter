@@ -4,7 +4,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root line)
 
 ZSH_HIGHLIGHT_STYLES[command]='fg=#B97CF9'
-ZSH_HIGHLIGHT_STYLES[alias]='fg=#FCF300'
+ZSH_HIGHLIGHT_STYLES[alias]='fg=#E62BC7'
 ZSH_HIGHLIGHT_STYLES[function]='fg=#FA946E'
 ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#F22B29'
 ZSH_HIGHLIGHT_STYLES[commandseparator]='fg=#B0FF92'

@@ -26,20 +26,19 @@ prompt default &> /dev/null
 DISABLE_AUTO_TITLE="false"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="false"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(zsh-autosuggestions)
+plugins=(zsh-autosuggestions git)
 
 source $ZSH/oh-my-zsh.sh
-
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
 # git add, git commit, git push all my rices
-alias upload-all-rices="cd $DOTFILES/rices && find * -maxdepth 0 -type d -exec upload-rice '{}' ';'"
+#alias upload-all-rices="cd $DOTFILES/rices && find * -maxdepth 0 -type d -exec upload-rice '{}' ';'"
 
 # opens a random pornhub video
 alias porn='mpv "http://www.pornhub.com/random"'
@@ -78,4 +77,6 @@ source ~/.custom_zshrc/.zshrc-functions
 source ~/.custom_zshrc/.variables
 source ~/.custom_zshrc/.paths
 source ~/.custom_zshrc/.aliases
+#source /usr/share/nvm/init-nvm.sh
+
 #source /usr/share/nvm/init-nvm.sh
