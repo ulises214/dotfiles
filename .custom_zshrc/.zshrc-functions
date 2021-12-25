@@ -60,3 +60,4 @@ ccode(){
   fi
   cd "$1" && code .
 }
+
