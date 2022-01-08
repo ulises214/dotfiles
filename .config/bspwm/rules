@@ -1,16 +1,16 @@
 #! /bin/bash
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
+
 bspc rule -a Yad state=floating
 bspc rule -a kitty desktop='^1' follow=on
-bspc rule -a Brave-browser desktop='^2' follow=on
 bspc rule -a Code desktop='^10' follow=on
-bspc rule -a VSCodium desktop='^3' follow=on
-bspc rule -a Thunar desktop='^4' follow=on
+bspc rule -a Pcmanfm desktop='^4' follow=on
 bspc rule -a Spotify desktop='^6' follow=on
 bspc rule -a Xfce4-settings-editor desktop='^8' follow=on
 bspc rule -a Xfce4-settings-manager desktop='^8' follow=on
 bspc rule -a Lxappearance desktop='^8' follow=on
-bspc rule -a MEGAsync desktop='^7' follow=on
+
+#bspc rule -a MEGAsync desktop='^7' follow=on
 #bspc rule -a discord desktop='^7'
 #bspc rule -a mplayer2 state=floating
 #bspc rule -a Zathura state=tiled

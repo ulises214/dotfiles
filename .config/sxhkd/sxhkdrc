@@ -8,7 +8,7 @@ super + shift + Return
 
 # dolphin
 super + shift + e
-    thunar 
+    pcmanfm #thunar 
 
 # update
 #super + u
